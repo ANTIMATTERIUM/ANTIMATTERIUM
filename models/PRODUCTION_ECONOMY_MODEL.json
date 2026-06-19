@@ -1,0 +1,48 @@
+{
+"schema_version": "antimatterium.production_economy.v0.1.0",
+"model_name": "ANTIMATTER_PRODUCTION_ECONOMY_MODEL",
+"purpose": "Track antimatter production as manufactured stored energy, not natural fuel.",
+"constants": {
+"speed_of_light_m_per_s": 299792458,
+"matter_antimatter_annihilation_joules_per_kg_antimatter_plus_kg_matter": 1.7975103574736352e17,
+"joules_per_kg_antimatter_with_equal_matter": 1.7975103574736352e17,
+"joules_per_mg_antimatter_with_equal_matter": 1.7975103574736352e11
+},
+"production_chain": [
+"input_energy",
+"accelerator_or_source_process",
+"antiproton_generation",
+"separation",
+"capture",
+"cooling",
+"antihydrogen_formation_if_applicable",
+"trap_loading",
+"custody_state",
+"storage_loss",
+"mission_allocation"
+],
+"required_inputs": [
+"source_authority_id",
+"antimatter_form",
+"input_energy_j",
+"gross_antiprotons_produced",
+"capture_efficiency",
+"conversion_efficiency_to_stored_antimatter",
+"stored_mass_kg",
+"time_to_produce_s",
+"facility_class",
+"cost_basis_usd",
+"loss_rate_per_day",
+"safety_boundary"
+],
+"refusal_conditions": [
+"REFUSE_NO_SOURCE_AUTHORITY",
+"REFUSE_NO_EFFICIENCY_ASSUMPTION",
+"REFUSE_NO_CAPTURE_ASSUMPTION",
+"REFUSE_NO_STORAGE_LOSS_ASSUMPTION",
+"REFUSE_NO_MISSION_CLASS",
+"REFUSE_CURRENT_PRODUCTION_OVERCLAIM",
+"REFUSE_PHYSICAL_PRODUCTION_INSTRUCTIONS"
+],
+"truth_warning": "Production economics are source-bound model assumptions, not production instructions."
+}

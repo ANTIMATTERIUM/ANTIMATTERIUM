@@ -1,0 +1,36 @@
+{
+"schema_version": "antimatterium.assumption_ledger.v0.1.0",
+"ledger_name": "STARFLIGHT_ASSUMPTION_LEDGER",
+"purpose": "Expose every assumption that makes antimatter starflight appear feasible or infeasible.",
+"required_assumption_classes": [
+"MISSION_CLASS",
+"PAYLOAD_MASS",
+"DELTA_V_OR_CRUISE_SPEED",
+"ACCELERATION_PROFILE",
+"DECELERATION_PROFILE",
+"ANTIMATTER_FORM",
+"ANTIMATTER_MASS",
+"PRODUCTION_EFFICIENCY",
+"CAPTURE_EFFICIENCY",
+"STORAGE_LOSS",
+"PROPULSION_COUPLING",
+"RADIATOR_MASS",
+"SHIELDING_MASS",
+"STRUCTURAL_MASS",
+"POWER_INFRASTRUCTURE",
+"SOURCE_AUTHORITY",
+"ALTERNATIVE_PROPULSION_COMPARISON"
+],
+"anti_overclaim_rule": "No mission may advance to a higher class by narrative implication.",
+"alternative_comparison_required": true,
+"forbidden_shortcuts": [
+"ignore_storage_loss",
+"ignore_radiator_mass",
+"ignore_shielding_mass",
+"ignore_deceleration",
+"treat_energy_as_free",
+"treat_antimatter_as_naturally_available",
+"treat_lab_production_as_industrial_supply",
+"treat_annihilation_energy_as_100_percent_thrust"
+]
+}

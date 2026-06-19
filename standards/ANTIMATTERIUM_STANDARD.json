@@ -1,0 +1,38 @@
+{
+"schema_version": "antimatterium.standard.v0.1.0",
+"institution": "ANTIMATTERIUM",
+"root_sentence": "ANTIMATTERIUM models, verifies, and industrializes antimatter as a manufactured energy carrier for starflight.",
+"primary_category": "industrial_antimatter_evidence_infrastructure",
+"primary_object": "ANTIMATTER_INDUSTRIALIZATION_RECORD",
+"license": "Apache-2.0",
+"current_claims": {
+"claims_current_industrial_antimatter_production": false,
+"claims_current_bulk_storage_solution": false,
+"claims_current_starship_readiness": false,
+"claims_current_propulsion_readiness": false,
+"claims_current_launch_readiness": false,
+"provides_physical_production_instructions": false
+},
+"required_object_families": [
+"SOURCE_AUTHORITY_INDEX",
+"STARFLIGHT_ASSUMPTION_LEDGER",
+"PRODUCTION_ECONOMY_MODEL",
+"CUSTODY_RECEIPT_STANDARD",
+"STORAGE_FAILURE_MODEL",
+"MISSION_CLASSES",
+"PUBLIC_VERIFIER"
+],
+"forbidden_reductions": [
+"antimatter_generator",
+"starship_company",
+"rocket_fantasy",
+"cern_clone",
+"nasa_clone",
+"particle_accelerator_instructions",
+"weaponization_framework",
+"diy_antimatter_project",
+"science_fiction_repo",
+"one_page_futurism_pitch"
+],
+"pass_condition": "ANTIMATTERIUM_INDUSTRIALIZATION_CHARTER_PASS"
+}

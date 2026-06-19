@@ -1,0 +1,38 @@
+{
+"schema_version": "antimatterium.custody_receipt.v0.1.0",
+"receipt_type": "ANTIMATTER_CUSTODY_RECEIPT",
+"purpose": "Record a bounded antimatter custody state without implying production readiness or mission readiness.",
+"required_fields": {
+"receipt_id": "string",
+"subject_id": "string",
+"antimatter_form": "antiproton | positron | antihydrogen | other",
+"estimated_particle_count": "number",
+"estimated_mass_kg": "number",
+"custody_state": "NO_STORAGE | THEORETICAL_STORAGE | LAB_TRAP_STORAGE | PORTABLE_TRAP_CANDIDATE | MISSION_STORAGE_CANDIDATE | INDUSTRIAL_STORAGE_CANDIDATE | QUARANTINED_STORAGE_CLAIM",
+"source_authority_id": "string",
+"measurement_basis": "string",
+"storage_boundary": "string",
+"start_time": "iso8601",
+"end_time": "iso8601 | null",
+"loss_model_id": "string",
+"safety_boundary": "string",
+"scope_limit": "string",
+"does_not_prove": "array",
+"digest": "string"
+},
+"required_does_not_prove": [
+"industrial_production",
+"bulk_storage_solution",
+"spacecraft_readiness",
+"propulsion_readiness",
+"starship_readiness"
+],
+"refusal_conditions": [
+"REFUSE_NO_SOURCE_AUTHORITY",
+"REFUSE_NO_STORAGE_BOUNDARY",
+"REFUSE_NO_LOSS_MODEL",
+"REFUSE_NO_SCOPE_LIMIT",
+"REFUSE_CUSTODY_AS_PRODUCTION_CLAIM",
+"REFUSE_CUSTODY_AS_MISSION_READINESS"
+]
+}
