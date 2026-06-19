@@ -1,13 +1,14 @@
 {
   "name": "@antimatterium/antimatterium",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "description": "Industrial antimatter economics, custody, storage, and starflight mission architecture.",
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
     "verify": "node scripts/verify-antimatterium.mjs",
-    "test": "node --test tests/antimatterium.test.mjs"
+    "test": "node --test tests/antimatterium.test.mjs",
+    "verify:receipts": "node scripts/verify-receipts.mjs"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",
