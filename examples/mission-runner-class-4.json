@@ -1,0 +1,7 @@
+{
+  "missionClass": 4,
+  "vehicleKg": 10,
+  "cruiseFractionC": 0.01,
+  "couplingEfficiency": 0.25,
+  "includeDeceleration": true
+}
