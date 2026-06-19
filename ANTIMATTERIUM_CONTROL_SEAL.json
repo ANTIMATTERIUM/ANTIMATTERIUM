@@ -1,0 +1,34 @@
+{
+  "seal": "ANTIMATTERIUM_CONTROL_SEAL",
+  "version": "v0.1.5",
+  "status": "public_control_chain_closed",
+  "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
+  "head_before_seal": "7a86737",
+  "released_versions": [
+    "v0.1.0-antimatterium-industrialization-charter",
+    "v0.1.1-antimatterium-economy-engine",
+    "v0.1.2-antimatterium-mission-runner",
+    "v0.1.3-antimatterium-source-bound-run",
+    "v0.1.4-antimatterium-public-index"
+  ],
+  "control_surface": {
+    "charter": "CHARTER_OF_ANTIMATTER_INDUSTRIALIZATION.md",
+    "standard": "standards/ANTIMATTERIUM_STANDARD.json",
+    "public_surface": "public/antimatterium.json",
+    "release_index": "public/releases.json",
+    "completion_receipt": "ANTIMATTERIUM_COMPLETION_RECEIPT.json",
+    "mission_receipt": "receipts/MISSION_CLASS_4_EXAMPLE_RECEIPT.json"
+  },
+  "claim_boundary": {
+    "claims_current_industrial_antimatter_production": false,
+    "claims_current_starship_readiness": false,
+    "claims_physical_production_instructions": false
+  },
+  "completion": {
+    "PUBLIC_CONTROL_CHAIN_CLOSED": true,
+    "RELEASE_INDEX_BOUND": true,
+    "MISSION_RECEIPT_BOUND": true,
+    "ECONOMY_ENGINE_BOUND": true,
+    "MISSION_RUNNER_BOUND": true
+  }
+}
