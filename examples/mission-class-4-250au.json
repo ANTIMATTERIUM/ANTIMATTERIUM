@@ -1,0 +1,8 @@
+{
+  "example": "MISSION_CLASS_4_250_AU_PROBE",
+  "vehicle_kg": 10,
+  "mission_class": 4,
+  "claim_boundary": "illustrative calculation only",
+  "claims_current_industrial_antimatter_production": false,
+  "claims_starship_readiness": false
+}
