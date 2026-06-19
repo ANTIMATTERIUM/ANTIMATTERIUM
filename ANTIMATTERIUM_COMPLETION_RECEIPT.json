@@ -1,0 +1,28 @@
+{
+  "receipt": "ANTIMATTERIUM_COMPLETION_RECEIPT",
+  "version": "v0.1.0",
+  "status": "complete",
+  "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
+  "pull_requests": [
+    "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/pull/1",
+    "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/pull/2"
+  ],
+  "head": "9164cfd",
+  "root_sentence": "ANTIMATTERIUM models, verifies, and industrializes antimatter as a manufactured energy carrier for starflight.",
+  "claims_current_industrial_antimatter_production": false,
+  "claims_current_starship_readiness": false,
+  "claims_physical_production_instructions": false,
+  "verifier": "scripts/verify-antimatterium.mjs",
+  "public_surface": "public/antimatterium.json",
+  "completion": {
+    "ANTIMATTERIUM_INDUSTRIALIZATION_CHARTER_PASS": true,
+    "ANTIMATTERIUM_PUBLIC_SURFACE_COMPLETE": true,
+    "NASA_SOURCE_BOUND": true,
+    "CERN_SOURCE_BOUND": true,
+    "MISSION_CLASSES_BOUND": true,
+    "PRODUCTION_COST_MODEL_BOUND": true,
+    "STORAGE_FAILURE_MODEL_BOUND": true,
+    "CUSTODY_RECEIPT_STANDARD_BOUND": true,
+    "SOURCE_AUTHORITY_INDEX_BOUND": true
+  }
+}
