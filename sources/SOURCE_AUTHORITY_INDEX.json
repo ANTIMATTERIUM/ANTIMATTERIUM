@@ -1,0 +1,68 @@
+{
+"schema_version": "antimatterium.source_authority.v0.1.0",
+"index_name": "SOURCE_AUTHORITY_INDEX",
+"purpose": "Bind antimatter industrialization assumptions to source surfaces and classify their admissible use.",
+"sources": [
+{
+"source_id": "CERN_ANTIMATTER_OVERVIEW",
+"title": "CERN antimatter overview",
+"url": "[https://home.cern/science/physics/antimatter](https://home.cern/science/physics/antimatter)",
+"source_class": "physics_source",
+"allowed_use": [
+"public physics context",
+"antimatter production/trapping background",
+"boundary reminder that current production is not industrial fuel production"
+],
+"forbidden_use": [
+"industrial production readiness",
+"spacecraft readiness",
+"bulk storage solved"
+]
+},
+{
+"source_id": "CERN_ALPHA_ANTIHYDROGEN_PRODUCTION",
+"title": "CERN ALPHA antihydrogen production reports",
+"url": "[https://home.cern/news](https://home.cern/news)",
+"source_class": "physics_source",
+"allowed_use": [
+"recent antihydrogen production benchmark",
+"laboratory progress context"
+],
+"forbidden_use": [
+"industrial output claim",
+"fuel supply claim"
+]
+},
+{
+"source_id": "NASA_NTRS_ANTIMATTER_PROPULSION_2020",
+"title": "NASA NTRS antimatter propulsion overview",
+"url": "[https://ntrs.nasa.gov/api/citations/20200001904/downloads/20200001904.pdf](https://ntrs.nasa.gov/api/citations/20200001904/downloads/20200001904.pdf)",
+"source_class": "mission_architecture_source",
+"allowed_use": [
+"antimatter propulsion mission architecture",
+"historical cost/yield boundary",
+"250 AU / interstellar precursor concept reference"
+],
+"forbidden_use": [
+"current commercial quote",
+"current production facility claim",
+"proof that starflight is buildable now"
+]
+},
+{
+"source_id": "NIETO_HOLZSCHEITER_TURYSHEV_2004",
+"title": "Controlled Antihydrogen Propulsion for NASA Future Very Deep Space",
+"url": "[https://arxiv.org/abs/astro-ph/0410511](https://arxiv.org/abs/astro-ph/0410511)",
+"source_class": "mission_architecture_source",
+"allowed_use": [
+"deep-space antimatter mission concept",
+"historical mission architecture reference"
+],
+"forbidden_use": [
+"current production readiness",
+"current storage readiness"
+]
+}
+],
+"source_rule": "A source may support an assumption only inside its allowed_use boundary."
+}

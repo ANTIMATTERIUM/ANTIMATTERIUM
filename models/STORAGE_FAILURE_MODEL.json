@@ -1,0 +1,66 @@
+{
+"schema_version": "antimatterium.storage_failure.v0.1.0",
+"model_name": "ANTIMATTER_STORAGE_FAILURE_MODEL",
+"purpose": "Classify antimatter storage as custody risk, not just container design.",
+"storage_state_types": [
+"NO_STORAGE",
+"THEORETICAL_STORAGE",
+"LAB_TRAP_STORAGE",
+"PORTABLE_TRAP_CANDIDATE",
+"MISSION_STORAGE_CANDIDATE",
+"INDUSTRIAL_STORAGE_CANDIDATE",
+"QUARANTINED_STORAGE_CLAIM"
+],
+"failure_modes": [
+{
+"id": "LOSS_TO_WALL_ANNIHILATION",
+"severity": "CRITICAL",
+"description": "Stored antimatter contacts ordinary matter boundary and annihilates."
+},
+{
+"id": "FIELD_FAILURE",
+"severity": "CRITICAL",
+"description": "Magnetic/electric confinement state fails or degrades below containment requirement."
+},
+{
+"id": "VACUUM_DEGRADATION",
+"severity": "HIGH",
+"description": "Vacuum boundary degrades and increases annihilation probability."
+},
+{
+"id": "THERMAL_DRIFT",
+"severity": "HIGH",
+"description": "Thermal environment invalidates assumed trap stability."
+},
+{
+"id": "CUSTODY_GAP",
+"severity": "HIGH",
+"description": "No continuous object trail proves storage state across transfer or time interval."
+},
+{
+"id": "OVERCLAIMED_STORAGE_CLASS",
+"severity": "CRITICAL",
+"description": "A lab or theoretical storage condition is presented as mission or industrial storage."
+}
+],
+"required_storage_record_fields": [
+"storage_state_type",
+"antimatter_form",
+"estimated_mass_kg",
+"trap_or_storage_class",
+"start_time",
+"end_time",
+"loss_model",
+"custody_receipt_id",
+"safety_boundary",
+"source_authority_id",
+"refusal_conditions"
+],
+"refusal_conditions": [
+"REFUSE_STORAGE_WITHOUT_LOSS_MODEL",
+"REFUSE_STORAGE_WITHOUT_CUSTODY_RECEIPT",
+"REFUSE_STORAGE_WITHOUT_SOURCE_AUTHORITY",
+"REFUSE_STORAGE_CLASS_OVERCLAIM",
+"REFUSE_MISSION_STORAGE_FROM_LAB_TRAP_ONLY"
+]
+}

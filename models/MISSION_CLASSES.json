@@ -1,0 +1,55 @@
+{
+"schema_version": "antimatterium.mission_classes.v0.1.0",
+"mission_classes": [
+{
+"class_id": 0,
+"name": "PHYSICS_BENCHMARK",
+"definition": "Laboratory antimatter production, measurement, cooling, trapping, and fundamental-physics boundary.",
+"may_claim": ["source-bound measurement", "laboratory production benchmark", "physics readiness delta"],
+"may_not_claim": ["industrial production", "spacecraft readiness", "bulk fuel availability"]
+},
+{
+"class_id": 1,
+"name": "CUSTODY_BENCHMARK",
+"definition": "Storage, trap continuity, transport boundary, custody receipts, and loss accounting.",
+"may_claim": ["custody-state model", "storage-loss model", "transport boundary model"],
+"may_not_claim": ["safe operational fuel logistics", "gram-scale storage solved"]
+},
+{
+"class_id": 2,
+"name": "CATALYZED_PROPULSION",
+"definition": "Antimatter as ignition, trigger, or catalyst for other propulsion systems, especially fusion.",
+"may_claim": ["trigger mass analysis", "fusion-catalysis dependency", "coupling sensitivity"],
+"may_not_claim": ["bulk antimatter fuel economy", "relativistic starflight readiness"]
+},
+{
+"class_id": 3,
+"name": "DEEP_SPACE_PRECURSOR",
+"definition": "Outer-solar-system, heliopause, and very-deep-space mission architecture.",
+"may_claim": ["small-payload mission envelope", "precursor propulsion economics", "mission-time tradeoff"],
+"may_not_claim": ["nearby-star arrival", "crew transport"]
+},
+{
+"class_id": 4,
+"name": "TWO_HUNDRED_FIFTY_AU_PROBE",
+"definition": "Bounded interstellar precursor mission class centered on approximately 250 AU targets.",
+"may_claim": ["probe architecture analysis", "antihydrogen sail sensitivity", "decade-scale precursor modeling"],
+"may_not_claim": ["Alpha Centauri arrival", "civilization-scale infrastructure solved"]
+},
+{
+"class_id": 5,
+"name": "INTERSTELLAR_PRECURSOR",
+"definition": "Multi-decade probe architectures beyond the solar gravity lens envelope and toward nearby-star precursor regimes.",
+"may_claim": ["gram-scale sensitivity analysis", "decadal flight-time envelope", "mission-architecture comparison"],
+"may_not_claim": ["human travel", "mature industrial antimatter economy"]
+},
+{
+"class_id": 6,
+"name": "RELATIVISTIC_STARFLIGHT",
+"definition": "Civilization-scale antimatter economy and propulsion architecture for relativistic interstellar travel.",
+"may_claim": ["civilization-scale cost model", "kg-to-tonne sensitivity analysis", "multi-century infrastructure envelope"],
+"may_not_claim": ["current buildability", "near-term launch readiness", "solved antimatter production"]
+}
+],
+"classification_rule": "Every mission claim must map to exactly one primary mission class and may not inherit claims from a higher class."
+}
