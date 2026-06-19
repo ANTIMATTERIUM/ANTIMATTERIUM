@@ -1,0 +1,19 @@
+{
+  "receipt": "ANTIMATTERIUM_NPM_PUBLICATION_RECEIPT",
+  "version": "v0.1.7",
+  "published_package": "@antimatterium/antimatterium",
+  "published_version": "0.1.6",
+  "npm_package_url": "https://www.npmjs.com/package/@antimatterium/antimatterium",
+  "npm_latest": "0.1.6",
+  "github_release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.1.6-antimatterium-npm-publication-boundary",
+  "claim_boundary": {
+    "claims_current_industrial_antimatter_production": false,
+    "claims_current_starship_readiness": false,
+    "claims_physical_production_instructions": false
+  },
+  "completion": {
+    "NPM_PUBLICATION_COMPLETE": true,
+    "NPM_PACKAGE_PUBLIC": true,
+    "NPM_VERSION_BOUND": true
+  }
+}
