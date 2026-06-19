@@ -1,0 +1,16 @@
+{
+  "receipt": "ANTIMATTERIUM_MISSION_ESTIMATE_RECEIPT",
+  "version": "v0.1.3",
+  "input": "examples/mission-runner-class-4.json",
+  "runner": "scripts/antimatterium-mission.mjs",
+  "mission_class": 4,
+  "claim_boundary": "bounded non-relativistic estimate; not production readiness; not starship readiness",
+  "claims_current_industrial_antimatter_production": false,
+  "claims_current_starship_readiness": false,
+  "source_authority_required": true,
+  "completion": {
+    "MISSION_RUNNER_RECEIPT_BOUND": true,
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true
+  }
+}
