@@ -1,0 +1,9 @@
+{
+  "institution": "ANTIMATTERIUM",
+  "status": "public_surface_v0.1.0",
+  "root_sentence": "ANTIMATTERIUM models, verifies, and industrializes antimatter as a manufactured energy carrier for starflight.",
+  "claims_current_industrial_antimatter_production": false,
+  "claims_current_starship_readiness": false,
+  "public_repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
+  "primary_release": "v0.1.0-antimatterium-industrialization-charter"
+}
