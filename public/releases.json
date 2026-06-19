@@ -1,0 +1,36 @@
+{
+  "institution": "ANTIMATTERIUM",
+  "release_index_version": "v0.1.4",
+  "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "tag": "v0.1.0-antimatterium-industrialization-charter",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.1.0-antimatterium-industrialization-charter",
+      "scope": "industrialization charter"
+    },
+    {
+      "version": "v0.1.1",
+      "tag": "v0.1.1-antimatterium-economy-engine",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.1.1-antimatterium-economy-engine",
+      "scope": "economy engine"
+    },
+    {
+      "version": "v0.1.2",
+      "tag": "v0.1.2-antimatterium-mission-runner",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.1.2-antimatterium-mission-runner",
+      "scope": "mission runner"
+    },
+    {
+      "version": "v0.1.3",
+      "tag": "v0.1.3-antimatterium-source-bound-run",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.1.3-antimatterium-source-bound-run",
+      "scope": "source-bound mission run"
+    }
+  ],
+  "claim_boundary": {
+    "claims_current_industrial_antimatter_production": false,
+    "claims_current_starship_readiness": false,
+    "claims_physical_production_instructions": false
+  }
+}
