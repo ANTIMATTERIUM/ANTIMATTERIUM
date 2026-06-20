@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
+  "title": "ANTIMATTERIUM Control Plane Bundle",
+  "type": "object",
+  "required": [
+    "schema",
+    "object",
+    "version",
+    "package_version",
+    "release",
+    "boundaries",
+    "artifacts",
+    "graph",
+    "digest"
+  ],
+  "properties": {
+    "schema": { "const": "ANTIMATTERIUM_CONTROL_PLANE_BUNDLE" },
+    "object": { "const": "ANTIMATTERIUM" },
+    "version": { "type": "string" },
+    "package_version": { "type": "string" },
+    "release": {
+      "type": "object",
+      "required": ["tag", "url"],
+      "properties": {
+        "tag": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "boundaries": {
+      "type": "object",
+      "required": [
+        "current_production_claim",
+        "starship_readiness_claim",
+        "physical_instruction_content",
+        "forbidden_public_tokens",
+        "local_machine_paths",
+        "non_public_inventory",
+        "unrelated_namespace_inventory"
+      ],
+      "properties": {
+        "current_production_claim": { "const": false },
+        "starship_readiness_claim": { "const": false },
+        "physical_instruction_content": { "const": false },
+        "forbidden_public_tokens": { "const": false },
+        "local_machine_paths": { "const": false },
+        "non_public_inventory": { "const": false },
+        "unrelated_namespace_inventory": { "const": false }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "bytes"],
+        "properties": {
+          "path": { "type": "string" },
+          "sha256": { "type": "string" },
+          "bytes": { "type": "integer" }
+        }
+      }
+    },
+    "graph": {
+      "type": "object",
+      "required": ["nodes", "edges"],
+      "properties": {
+        "nodes": { "type": "array" },
+        "edges": { "type": "array" }
+      }
+    },
+    "digest": {
+      "type": "object",
+      "required": ["algorithm", "sha256"],
+      "properties": {
+        "algorithm": { "const": "sha256" },
+        "sha256": { "type": "string" }
+      }
+    }
+  }
+}

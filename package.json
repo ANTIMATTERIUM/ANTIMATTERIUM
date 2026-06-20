@@ -17,15 +17,20 @@
     "verify:qvra-full-chain": "node scripts/verify-qvra-full-chain-recognition.mjs",
     "verify:npm-021": "node scripts/verify-npm-021-publication.mjs",
     "verify:privacy": "node scripts/verify-public-privacy-scan.mjs",
-    "verify:claims": "node scripts/verify-claim-boundary-scan.mjs"
+    "verify:claims": "node scripts/verify-claim-boundary-scan.mjs",
+    "verify:control": "node scripts/verify-control-plane.mjs",
+    "control:status": "node scripts/antimatterium-control.mjs status",
+    "control:bundle": "node scripts/antimatterium-control.mjs bundle"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",
     "./mission-energy": "./src/mission-energy.mjs",
-    "./mission-runner": "./src/mission-runner.mjs"
+    "./mission-runner": "./src/mission-runner.mjs",
+    "./control-plane": "./src/control-plane.mjs"
   },
   "bin": {
-    "antimatterium-mission": "scripts/antimatterium-mission.mjs"
+    "antimatterium-mission": "scripts/antimatterium-mission.mjs",
+    "antimatterium-control": "./scripts/antimatterium-control.mjs"
   },
   "publishConfig": {
     "access": "public"

@@ -1,0 +1,201 @@
+{
+  "schema": "ANTIMATTERIUM_CONTROL_PLANE_BUNDLE",
+  "object": "ANTIMATTERIUM",
+  "version": "0.2.5-control-plane",
+  "package_version": "0.2.1",
+  "release": {
+    "tag": "v0.2.5-antimatterium-control-plane",
+    "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.5-antimatterium-control-plane"
+  },
+  "previous_release": {
+    "tag": "v0.2.4-antimatterium-claim-token-scrub",
+    "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.4-antimatterium-claim-token-scrub"
+  },
+  "npm": {
+    "package": "@antimatterium/antimatterium",
+    "latest_published_version": "0.2.1"
+  },
+  "boundaries": {
+    "current_production_claim": false,
+    "starship_readiness_claim": false,
+    "physical_instruction_content": false,
+    "forbidden_public_tokens": false,
+    "local_machine_paths": false,
+    "non_public_inventory": false,
+    "unrelated_namespace_inventory": false
+  },
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "dc9fbe0cf2dcfec6cb183ae0539fe45d0f87a804b04a14795291c4bb725b1974",
+      "bytes": 5136
+    },
+    {
+      "path": "CHARTER_OF_ANTIMATTER_INDUSTRIALIZATION.md",
+      "sha256": "a5cfd51a90b1b6af2dda12618b8637f64580394f8af88f6404332e17f3841fc4",
+      "bytes": 3594
+    },
+    {
+      "path": "ANTIMATTERIUM_CONTROL_SEAL.json",
+      "sha256": "4024206f29110e58361fbfda82f18444f6ed7f0afb109667cc24dc355f25b407",
+      "bytes": 1232
+    },
+    {
+      "path": "ANTIMATTERIUM_COMPLETION_RECEIPT.json",
+      "sha256": "3f133446425f7c0c3d14803b7d2e2296b2e508b9ea59802656c240a2befed4a2",
+      "bytes": 1119
+    },
+    {
+      "path": "public/antimatterium.json",
+      "sha256": "5d02bce608787e6b08205045a22e9af157e63ae191553cc02ec8e634a6c4e3c3",
+      "bytes": 924
+    },
+    {
+      "path": "public/releases.json",
+      "sha256": "c9ef3d475d76396b79d6403605489d77fbdf5ae2d5677a6bc3f16f177718ee1a",
+      "bytes": 1341
+    },
+    {
+      "path": "integrations/CROSS_STACK_BINDING.json",
+      "sha256": "6f2fd795ec494713bf5792c6f674473b6233b3fbda19bbc81d10bb5dbb3ba3ed",
+      "bytes": 2442
+    },
+    {
+      "path": "integrations/verifrax/ADMISSIBILITY_BRIDGE.json",
+      "sha256": "f1af5298ae30cedf86c77fe0dae9d22b68125d4ba4263b6c7f5347ad8f00ac9e",
+      "bytes": 682
+    },
+    {
+      "path": "integrations/invocorder/MACHINE_ACTION_RECORD_PROFILE.json",
+      "sha256": "9aa541a177323f32020e054802eca38319291975cab19b8a571d2613f70a3e4c",
+      "bytes": 662
+    },
+    {
+      "path": "integrations/qvra/LAB_RUN_BINDING.json",
+      "sha256": "d9c41c4c87e1451593b56e6d7ab588253143e55ff902fcb1923554a59cfeaa8d",
+      "bytes": 629
+    },
+    {
+      "path": "integrations/qvra/FULL_CHAIN_RECOGNITION_RECEIPT.json",
+      "sha256": "70e010925fa7a5b4f1fc4629365fafe5ecd1c1d0908a14da43193d508782f9d6",
+      "bytes": 1989
+    },
+    {
+      "path": "integrations/npm/NPM_021_PUBLICATION_RECEIPT.json",
+      "sha256": "e36a59a6f1f87a96d9598c0565048938470797a2111da75e4d9f5757a4c632cc",
+      "bytes": 1432
+    },
+    {
+      "path": "models/MISSION_CLASSES.json",
+      "sha256": "6d618d45e245ffebc9feadbbe250ede1b87c618e46a381a6aa81d97f2cad0b30",
+      "bytes": 2709
+    },
+    {
+      "path": "models/PRODUCTION_ECONOMY_MODEL.json",
+      "sha256": "4630e89067b15093d577f8a85ebdc869e8bdc46a0c3001c10416e85cb2fd3cfa",
+      "bytes": 1413
+    },
+    {
+      "path": "models/STORAGE_FAILURE_MODEL.json",
+      "sha256": "930e1b64af9a4417b619d33be0c6430bcc4a60c4279b5d69daca6577b91d5a27",
+      "bytes": 1769
+    },
+    {
+      "path": "models/STARFLIGHT_ASSUMPTION_LEDGER.json",
+      "sha256": "0a83b14a6757b3994e191c5db3a0729187a87dd28696a6cd693a3efc6e2bee85",
+      "bytes": 1033
+    },
+    {
+      "path": "sources/SOURCE_AUTHORITY_INDEX.json",
+      "sha256": "558bb902342fdcfc10a396d52e087333c91f81d7e71feeca61d5a653fab5fb62",
+      "bytes": 2234
+    },
+    {
+      "path": "standards/ANTIMATTERIUM_STANDARD.json",
+      "sha256": "8a6f4b7e1546110809ee899859f741c273d2ae32d288453a3427658c04836142",
+      "bytes": 1217
+    },
+    {
+      "path": "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
+      "sha256": "fb3899e19b7bd8ffee481919c5ec8d16e7de1461a32e82d6b30bf3be75e48954",
+      "bytes": 2249
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "ANTIMATTERIUM",
+        "type": "bounded_public_object"
+      },
+      {
+        "id": "CONTROL_SEAL",
+        "type": "public_control_closure"
+      },
+      {
+        "id": "PUBLIC_INDEX",
+        "type": "release_index"
+      },
+      {
+        "id": "MISSION_MODELS",
+        "type": "bounded_estimation_models"
+      },
+      {
+        "id": "VERIFRAX_BRIDGE",
+        "type": "admissibility_bridge"
+      },
+      {
+        "id": "INVOCORDER_PROFILE",
+        "type": "machine_action_profile"
+      },
+      {
+        "id": "QVRA_BINDING",
+        "type": "external_lab_binding"
+      },
+      {
+        "id": "NPM_RECEIPT",
+        "type": "package_receipt"
+      }
+    ],
+    "edges": [
+      [
+        "ANTIMATTERIUM",
+        "CONTROL_SEAL",
+        "sealed_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "PUBLIC_INDEX",
+        "indexed_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "MISSION_MODELS",
+        "uses"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "VERIFRAX_BRIDGE",
+        "admitted_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "INVOCORDER_PROFILE",
+        "recordable_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "QVRA_BINDING",
+        "recognized_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "NPM_RECEIPT",
+        "distributed_as"
+      ]
+    ]
+  },
+  "digest": {
+    "algorithm": "sha256",
+    "sha256": "dc9cba646436822f0aa2b2b8e1be8479319bb446ff0a804069bf6f9195fc2cee"
+  }
+}
