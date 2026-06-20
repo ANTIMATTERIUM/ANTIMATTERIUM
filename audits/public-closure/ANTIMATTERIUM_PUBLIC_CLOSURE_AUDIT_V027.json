@@ -1,0 +1,53 @@
+{
+  "schema": "ANTIMATTERIUM_PUBLIC_CLOSURE_AUDIT",
+  "object": "ANTIMATTERIUM",
+  "audit_version": "0.2.8-public-closure-audit",
+  "core": {
+    "tag": "v0.2.7-antimatterium-external-replay-runner",
+    "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.7-antimatterium-external-replay-runner",
+    "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
+    "public_index": "public/antimatterium.json",
+    "releases": "public/releases.json",
+    "control_plane_bundle": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
+    "runtime_event": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+    "replay_receipt": "public/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT.json"
+  },
+  "www": {
+    "tag": "v0.1.5-antimatterium-www-external-replay-surface",
+    "release": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.5-antimatterium-www-external-replay-surface",
+    "site": "https://antimatterium.github.io/WWW/",
+    "repository": "https://github.com/ANTIMATTERIUM/WWW"
+  },
+  "org_profile": {
+    "tag": "v0.0.3-antimatterium-org-profile-external-replay-surface",
+    "release": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.3-antimatterium-org-profile-external-replay-surface",
+    "org": "https://github.com/ANTIMATTERIUM",
+    "repository": "https://github.com/ANTIMATTERIUM/.github"
+  },
+  "npm": {
+    "package": "https://www.npmjs.com/package/@antimatterium/antimatterium",
+    "version": "0.2.1"
+  },
+  "bound_identifiers": {
+    "control_digest": "e369b24436ca164e186ec38f4223db6a31118bfe049c659c2475f090a19075aa",
+    "runtime_event_id": "f4923422f6f97910816b685376aacf9697222a6c09b1c0cabdb63419c07616d7",
+    "replay_id": "7e54419a5446070567342de77a4f5672885211d8020e1ea273f022a1b16185f3"
+  },
+  "verification": {
+    "core_control_plane": true,
+    "core_runtime_kernel": true,
+    "core_external_replay": true,
+    "www_external_replay_surface": true,
+    "org_profile_external_replay_surface": true,
+    "npm_publication": true,
+    "release_index": true,
+    "public_index_latest_release": true
+  },
+  "boundaries": {
+    "NO_CURRENT_PRODUCTION_CLAIM": true,
+    "NO_STARSHIP_CLAIM": true,
+    "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+    "NON_PUBLIC_INFORMATION_EXCLUDED": true
+  },
+  "audit_id": "62bc141c73cadd5e3e428b7610f46facd3c6b800e2ecd888c5a43230ebf8d9a5"
+}

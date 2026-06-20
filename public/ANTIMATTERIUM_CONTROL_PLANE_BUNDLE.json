@@ -27,8 +27,8 @@
   "artifacts": [
     {
       "path": "README.md",
-      "sha256": "4b725e9ad60da9f7436a680c4915517bc5fb1ebcd88788476d071ace4f540e52",
-      "bytes": 6047
+      "sha256": "706fc65ac7d4535f986d74f3c50fbe5a92e726cf273c5492a78a34b33d571e3f",
+      "bytes": 6339
     },
     {
       "path": "CHARTER_OF_ANTIMATTER_INDUSTRIALIZATION.md",
@@ -212,6 +212,10 @@
       {
         "id": "EXTERNAL_REPLAY",
         "type": "external_replay_receipt"
+      },
+      {
+        "id": "PUBLIC_CLOSURE_AUDIT",
+        "type": "cross_surface_audit_receipt"
       }
     ],
     "edges": [
@@ -259,6 +263,11 @@
         "ANTIMATTERIUM",
         "EXTERNAL_REPLAY",
         "verified_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "PUBLIC_CLOSURE_AUDIT",
+        "closed_by"
       ]
     ]
   },
