@@ -20,56 +20,6 @@
       "boundary": "ANTIMATTERIUM exports runnable evidence objects for qvra; qvra remains external runtime/lab namespace."
     }
   },
-  "excluded_stacks": {
-    "VATFix": {
-      "included": false,
-      "reason": "tax compliance product domain; no antimatter core role"
-    },
-    "CINEMATICUM": {
-      "included": false,
-      "reason": "cinematic jurisdiction; no antimatter core role"
-    },
-    "kaaffilm": {
-      "included": false,
-      "reason": "film workspace; no antimatter core role"
-    },
-    "TRUTHFRAMER": {
-      "included": false,
-      "reason": "truth/capsule platform; future explanatory layer only"
-    },
-    "qxvi": {
-      "included": false,
-      "reason": "boundary camera may become future visual evidence dependency, not current core"
-    },
-    "qxvo": {
-      "included": false,
-      "reason": "mail-processing utility; no antimatter role"
-    },
-    "qzro": {
-      "included": false,
-      "reason": "assistant/helper utility; no antimatter role"
-    },
-    "aikido-bounty-lab": {
-      "included": false,
-      "reason": "security sandbox; no antimatter role"
-    },
-    "qvro": {
-      "included": false,
-      "reason": "namespace holding or no visible repo role"
-    },
-    "qvru": {
-      "included": false,
-      "reason": "namespace holding or no visible repo role"
-    },
-    "qxra": {
-      "included": false,
-      "reason": "namespace holding or no visible repo role"
-    },
-    "qzru": {
-      "included": false,
-      "reason": "namespace holding or no visible repo role"
-    }
-  },
   "claim_boundary": {
     "claims_current_industrial_antimatter_production": false,
     "claims_current_starship_readiness": false,
@@ -79,5 +29,35 @@
     "CROSS_STACK_BINDING_COMPLETE": true,
     "ONLY_RELEVANT_STACKS_IMPORTED": true,
     "UNRELATED_STACKS_EXCLUDED": true
+  },
+  "direct_public_bindings": {
+    "verifrax_admissibility_bridge": {
+      "bound": true,
+      "role": "admissibility and replay boundary"
+    },
+    "invocorder_machine_action_profile": {
+      "bound": true,
+      "role": "machine-action evidence profile"
+    },
+    "qvra_lab_run_binding": {
+      "bound": true,
+      "role": "external runnable lab object recognition"
+    }
+  },
+  "excluded_unrelated_namespace_inventory": {
+    "literal_public_inventory": false,
+    "policy": "unrelated namespaces are excluded from ANTIMATTERIUM public object bindings",
+    "reason": "ANTIMATTERIUM only names directly bound public evidence surfaces."
+  },
+  "privacy_boundary": {
+    "contains_local_machine_paths": false,
+    "contains_private_folder_inventory": false,
+    "contains_personal_stack_inventory": false,
+    "contains_unrelated_namespace_inventory": false,
+    "literal_unrelated_namespace_inventory_excluded": true
+  },
+  "scope_boundary": {
+    "only_directly_bound_public_surfaces_named": true,
+    "unrelated_namespaces_not_publicly_inventoried": true
   }
 }
