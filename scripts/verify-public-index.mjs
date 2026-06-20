@@ -13,7 +13,7 @@ const releases = Array.isArray(releaseIndex)
 
 assert(index.object === "ANTIMATTERIUM", "public index object mismatch");
 assert(index.name === "ANTIMATTERIUM", "public index name mismatch");
-assert(index.latest_release === "v0.2.9-antimatterium-external-public-verifier", "latest release mismatch");
+assert(index.latest_release === "v0.2.10-antimatterium-npm-022-publication", "latest release mismatch");
 
 assert(Array.isArray(releases), "release index must expose releases");
 assert(releases.length >= 6, "expanded release chain too short");
@@ -35,6 +35,7 @@ console.log("ANTIMATTERIUM_RELEASE_INDEX_BOUND=true");
 console.log("ANTIMATTERIUM_EXPANDED_RELEASE_CHAIN_BOUND=true");
 console.log("ANTIMATTERIUM_EXTERNAL_REPLAY_INDEX_BOUND=true");
 console.log("ANTIMATTERIUM_EXTERNAL_PUBLIC_VERIFIER_INDEX_BOUND=true");
+console.log("ANTIMATTERIUM_NPM_022_INDEX_BOUND=true");
 console.log("NO_CURRENT_PRODUCTION_CLAIM=true");
 console.log("NO_STARSHIP_CLAIM=true");
 console.log("NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true");

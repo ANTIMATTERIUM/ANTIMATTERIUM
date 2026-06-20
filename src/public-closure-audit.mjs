@@ -88,7 +88,8 @@ export function buildPublicClosureAudit() {
       org_profile_external_replay_surface: true,
       npm_publication: true,
       release_index: Array.isArray(releases) || Array.isArray(releases.releases),
-      public_index_latest_release: ["v0.2.7-antimatterium-external-replay-runner", "v0.2.8-antimatterium-public-closure-audit", "v0.2.9-antimatterium-external-public-verifier"].includes(publicIndex.latest_release)
+      public_index_latest_release: ["v0.2.7-antimatterium-external-replay-runner", "v0.2.8-antimatterium-public-closure-audit", "v0.2.10-antimatterium-npm-022-publication",
+    "v0.2.9-antimatterium-external-public-verifier"].includes(publicIndex.latest_release)
     },
     boundaries: boundaries()
   };

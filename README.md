@@ -206,3 +206,13 @@ bash scripts/antimatterium-public-external-verify.sh
 ```
 
 Expected bound outputs are checked against the public closure audit.
+
+## npm 0.2.2
+
+The npm package release `0.2.2` carries the external public verifier stack.
+
+```bash id="0c97r2"
+npm i @antimatterium/antimatterium@0.2.2
+npx antimatterium-public-external-verify
+````
+

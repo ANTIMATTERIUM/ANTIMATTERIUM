@@ -20,7 +20,7 @@
     "verify_command": "npm run verify:replay",
     "status_command": "antimatterium-replay status"
   },
-  "latest_release": "v0.2.9-antimatterium-external-public-verifier",
+  "latest_release": "v0.2.10-antimatterium-npm-022-publication",
   "object": "ANTIMATTERIUM",
   "name": "ANTIMATTERIUM",
   "external_public_verifier": {
@@ -28,5 +28,10 @@
     "receipt": "public/verifiers/ANTIMATTERIUM_EXTERNAL_PUBLIC_VERIFIER.json",
     "script": "scripts/antimatterium-public-external-verify.sh",
     "command": "bash scripts/antimatterium-public-external-verify.sh"
+  },
+  "npm": {
+    "package": "https://www.npmjs.com/package/@antimatterium/antimatterium",
+    "version": "0.2.2",
+    "receipt": "integrations/npm/NPM_022_PUBLICATION_RECEIPT.json"
   }
 }

@@ -6,19 +6,19 @@
   "verifier_script": "scripts/antimatterium-public-external-verify.sh",
   "external_run_command": "bash scripts/antimatterium-public-external-verify.sh",
   "bound_surfaces": {
-    "core_public_closure_audit": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.8-antimatterium-public-closure-audit",
+    "core_external_public_verifier": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.9-antimatterium-external-public-verifier",
     "www_external_replay_surface": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.5-antimatterium-www-external-replay-surface",
     "org_profile_external_replay_surface": "https://github.com/ANTIMATTERIUM/.github/releases/tag/v0.0.3-antimatterium-org-profile-external-replay-surface",
     "www_site": "https://antimatterium.github.io/WWW/",
     "org": "https://github.com/ANTIMATTERIUM",
     "npm_package": "https://www.npmjs.com/package/@antimatterium/antimatterium",
-    "npm_version": "0.2.1"
+    "npm_version": "0.2.2"
   },
   "expected_outputs": {
-    "AUDIT_ID": "36625ee30955237c5b215a9036b2e359e3eb9551aff82d3a743ceed756c3b748",
-    "CONTROL_DIGEST": "e369b24436ca164e186ec38f4223db6a31118bfe049c659c2475f090a19075aa",
+    "AUDIT_ID": "fcadd3a654978081f7ab9a4e775d1ee1d4e2960c14a5812cd2c349f862959d30",
+    "CONTROL_DIGEST": "bb75f4462f42f37b5fd2faa5d511dd90213df9f60997f16b5875b80a8f99b0b6",
     "RUNTIME_EVENT_ID": "f4923422f6f97910816b685376aacf9697222a6c09b1c0cabdb63419c07616d7",
-    "REPLAY_ID": "041dc9a7aa9d901bc4b3fa2243494504566d7903f03bcdad850b1bdce809b207"
+    "REPLAY_ID": "63a62592964d5c8fe2c23d8be06972eef297446d5708c898868dadae4bb92319"
   },
   "boundaries": {
     "NO_CURRENT_PRODUCTION_CLAIM": true,
@@ -26,5 +26,5 @@
     "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
     "NON_PUBLIC_INFORMATION_EXCLUDED": true
   },
-  "verifier_id": "06cdd30b904dca0e7f322ccccb60949055f9addafff587267af9a67b4ca22fdb"
+  "verifier_id": "59972b8a13e1d1896e76ad44f18a5d5ca58595afd624842d4557f2557a69696b"
 }

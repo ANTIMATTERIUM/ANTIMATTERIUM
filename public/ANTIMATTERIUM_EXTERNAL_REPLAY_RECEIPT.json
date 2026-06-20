@@ -5,34 +5,34 @@
   "mode": "local_replay",
   "source_release": "v0.2.6-antimatterium-runtime-kernel",
   "source_commit": "BOUND_BY_RELEASE_TAG_AFTER_MERGE",
-  "control_plane_digest": "e369b24436ca164e186ec38f4223db6a31118bfe049c659c2475f090a19075aa",
+  "control_plane_digest": "bb75f4462f42f37b5fd2faa5d511dd90213df9f60997f16b5875b80a8f99b0b6",
   "runtime_event_id": "f4923422f6f97910816b685376aacf9697222a6c09b1c0cabdb63419c07616d7",
   "artifact_count": 20,
   "artifact_digests": [
     {
       "path": "README.md",
       "algorithm": "sha256",
-      "sha256": "8b0129fdbf54c5727da148b7023f743581d38b7a12bd4624d7a3e0a8c7c5adc7"
+      "sha256": "8f15a2f190d41c2a639ec0edc9a405bc97426f066dc111863273e48b315560c8"
     },
     {
       "path": "package.json",
       "algorithm": "sha256",
-      "sha256": "e3c37d746135c1b280de8a1c6d4c50e99683b74a503ed0429c77257143b8ada0"
+      "sha256": "230282d118740d1a078097908aad5a488b451e5d4f7854d88a005eea7e492dec"
     },
     {
       "path": "public/antimatterium.json",
       "algorithm": "sha256",
-      "sha256": "105f1d28d3e6bd315fb684878794fb65c6274b2e8e782625a48045c7175227b4"
+      "sha256": "7fe51df9866cabdc74437ee9f44c055c93f9406fd6030197db7a23a63139cbfb"
     },
     {
       "path": "public/releases.json",
       "algorithm": "sha256",
-      "sha256": "164084e17d2dfa1a4c9e655f75ebc1a620a035da0223061382a6a6b65bf5e04d"
+      "sha256": "73305c873aa695dda1c288fb750ec9402a9478ba9067978491d059cd2af6f870"
     },
     {
       "path": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
       "algorithm": "sha256",
-      "sha256": "aa880bab1c090a64c2d5a8b22fd71d12bf8805848048908ddb48c34ce7576bda"
+      "sha256": "d0dc0998c590d26db4b96e49cdf27a6527ab9f2a746001f04261bbc81cbf9109"
     },
     {
       "path": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
@@ -170,5 +170,5 @@
     "private_inventory_content": false,
     "unrelated_namespace_inventory": false
   },
-  "replay_id": "041dc9a7aa9d901bc4b3fa2243494504566d7903f03bcdad850b1bdce809b207"
+  "replay_id": "63a62592964d5c8fe2c23d8be06972eef297446d5708c898868dadae4bb92319"
 }
