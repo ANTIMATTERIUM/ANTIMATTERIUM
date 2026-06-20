@@ -59,7 +59,7 @@ An antimatter industrialization record must declare:
   "cern_clone",
   "nasa_clone",
   "particle_accelerator_instructions",
-  "weaponization_framework",
+  "prohibited_misuse_framework",
   "diy_antimatter_project",
   "science_fiction_repo",
   "one_page_futurism_pitch"

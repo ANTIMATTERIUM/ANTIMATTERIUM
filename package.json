@@ -16,7 +16,8 @@
     "verify:qvra-recognition": "node scripts/verify-qvra-lab-recognition.mjs",
     "verify:qvra-full-chain": "node scripts/verify-qvra-full-chain-recognition.mjs",
     "verify:npm-021": "node scripts/verify-npm-021-publication.mjs",
-    "verify:privacy": "node scripts/verify-public-privacy-scan.mjs"
+    "verify:privacy": "node scripts/verify-public-privacy-scan.mjs",
+    "verify:claims": "node scripts/verify-claim-boundary-scan.mjs"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",
