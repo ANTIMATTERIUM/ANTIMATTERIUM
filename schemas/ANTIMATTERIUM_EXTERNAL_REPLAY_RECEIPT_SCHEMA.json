@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/schemas/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT_SCHEMA.json",
+  "title": "ANTIMATTERIUM External Replay Receipt",
+  "type": "object",
+  "required": [
+    "schema",
+    "object",
+    "replay_version",
+    "replay_id",
+    "mode",
+    "source_release",
+    "source_commit",
+    "control_plane_digest",
+    "runtime_event_id",
+    "artifact_count",
+    "artifact_digests",
+    "commands",
+    "results",
+    "boundaries"
+  ],
+  "properties": {
+    "schema": { "const": "ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT" },
+    "object": { "const": "ANTIMATTERIUM" },
+    "replay_version": { "type": "string" },
+    "replay_id": { "type": "string" },
+    "mode": { "enum": ["local_replay", "external_clone_replay"] },
+    "source_release": { "type": "string" },
+    "source_commit": { "type": "string" },
+    "control_plane_digest": { "type": "string" },
+    "runtime_event_id": { "type": "string" },
+    "artifact_count": { "type": "integer" },
+    "artifact_digests": { "type": "array" },
+    "commands": { "type": "array" },
+    "results": { "type": "array" },
+    "boundaries": { "type": "object" }
+  }
+}

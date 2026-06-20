@@ -12,5 +12,15 @@
     "schema": "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
     "status_command": "antimatterium-control status",
     "verify_command": "npm run verify:control"
-  }
+  },
+  "external_replay": {
+    "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.7-antimatterium-external-replay-runner",
+    "receipt": "public/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT.json",
+    "schema": "schemas/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT_SCHEMA.json",
+    "verify_command": "npm run verify:replay",
+    "status_command": "antimatterium-replay status"
+  },
+  "latest_release": "v0.2.7-antimatterium-external-replay-runner",
+  "object": "ANTIMATTERIUM",
+  "name": "ANTIMATTERIUM"
 }

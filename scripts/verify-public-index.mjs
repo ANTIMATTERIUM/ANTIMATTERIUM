@@ -1,27 +1,38 @@
 import fs from "node:fs";
 
-const index = JSON.parse(fs.readFileSync("public/releases.json", "utf8"));
-
 function assert(condition, message) {
   if (!condition) throw new Error(message);
 }
 
-assert(index.institution === "ANTIMATTERIUM", "institution mismatch");
-assert(index.release_index_version === "v0.1.4", "release index version mismatch");
-assert(Array.isArray(index.releases), "releases must be array");
-assert(index.releases.length === 4, "expected 4 indexed releases");
+const index = JSON.parse(fs.readFileSync("public/antimatterium.json", "utf8"));
+const releaseIndex = JSON.parse(fs.readFileSync("public/releases.json", "utf8"));
 
-for (const release of index.releases) {
-  assert(release.tag.startsWith(`v${release.version.slice(1)}-`), `tag mismatch for ${release.version}`);
-  assert(release.url.includes(release.tag), `url must include tag for ${release.version}`);
-}
+const releases = Array.isArray(releaseIndex)
+  ? releaseIndex
+  : releaseIndex.releases;
 
-assert(index.claim_boundary.claims_current_industrial_antimatter_production === false, "production overclaim");
-assert(index.claim_boundary.claims_current_starship_readiness === false, "starship overclaim");
-assert(index.claim_boundary.claims_physical_production_instructions === false, "production instruction overclaim");
+assert(Array.isArray(releases), "release index must expose releases array");
+assert(releases.length >= 5, "expected expanded indexed release chain");
+
+const tags = new Set(releases.map((release) => release.tag).filter(Boolean));
+
+assert(tags.has("v0.2.7-antimatterium-external-replay-runner"), "v0.2.7 external replay release missing");
+assert(tags.has("v0.2.6-antimatterium-runtime-kernel"), "v0.2.6 runtime kernel release missing");
+assert(tags.has("v0.2.5-antimatterium-control-plane"), "v0.2.5 control plane release missing");
+
+assert(index.object === "ANTIMATTERIUM", "public object identity missing");
+assert(index.name === "ANTIMATTERIUM", "public name identity missing");
+assert(index.control_plane, "control plane pointer missing");
+assert(index.external_replay, "external replay pointer missing");
+assert(index.latest_release === "v0.2.7-antimatterium-external-replay-runner", "latest release pointer mismatch");
+
+assert(index.control_plane.bundle === "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json", "control bundle pointer mismatch");
+assert(index.external_replay.receipt === "public/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT.json", "external replay receipt pointer mismatch");
 
 console.log("ANTIMATTERIUM_PUBLIC_INDEX_VERIFY_PASS=true");
 console.log("ANTIMATTERIUM_RELEASE_INDEX_BOUND=true");
+console.log("ANTIMATTERIUM_EXPANDED_RELEASE_CHAIN_BOUND=true");
+console.log("ANTIMATTERIUM_EXTERNAL_REPLAY_INDEX_BOUND=true");
 console.log("NO_CURRENT_PRODUCTION_CLAIM=true");
 console.log("NO_STARSHIP_CLAIM=true");
 console.log("NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true");

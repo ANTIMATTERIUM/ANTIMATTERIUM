@@ -30,7 +30,12 @@ const REQUIRED_ARTIFACTS = [
   "src/runtime-kernel.mjs",
   "scripts/antimatterium-runtime.mjs",
   "scripts/verify-runtime-kernel.mjs",
-  "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json"
+  "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+  "schemas/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT_SCHEMA.json",
+  "src/external-replay.mjs",
+  "scripts/antimatterium-replay.mjs",
+  "scripts/antimatterium-external-clone-replay.sh",
+  "scripts/verify-external-replay.mjs",
 ];
 
 function read(file) {
@@ -100,7 +105,8 @@ function graph() {
       { id: "INVOCORDER_PROFILE", type: "machine_action_profile" },
       { id: "QVRA_BINDING", type: "external_lab_binding" },
       { id: "NPM_RECEIPT", type: "package_receipt" },
-      { id: "RUNTIME_KERNEL", type: "admission_runtime_kernel" }
+      { id: "RUNTIME_KERNEL", type: "admission_runtime_kernel" },
+      { id: "EXTERNAL_REPLAY", type: "external_replay_receipt" }
     ],
     edges: [
       ["ANTIMATTERIUM", "CONTROL_SEAL", "sealed_by"],
@@ -110,7 +116,8 @@ function graph() {
       ["ANTIMATTERIUM", "INVOCORDER_PROFILE", "recordable_by"],
       ["ANTIMATTERIUM", "QVRA_BINDING", "recognized_by"],
       ["ANTIMATTERIUM", "NPM_RECEIPT", "distributed_as"],
-      ["ANTIMATTERIUM", "RUNTIME_KERNEL", "executed_by"]
+      ["ANTIMATTERIUM", "RUNTIME_KERNEL", "executed_by"],
+      ["ANTIMATTERIUM", "EXTERNAL_REPLAY", "verified_by"]
     ]
   };
 }

@@ -22,19 +22,24 @@
     "control:status": "node scripts/antimatterium-control.mjs status",
     "control:bundle": "node scripts/antimatterium-control.mjs bundle",
     "verify:runtime": "node scripts/verify-runtime-kernel.mjs",
-    "runtime:status": "node scripts/antimatterium-runtime.mjs status"
+    "runtime:status": "node scripts/antimatterium-runtime.mjs status",
+    "verify:replay": "node scripts/verify-external-replay.mjs",
+    "replay:status": "node scripts/antimatterium-replay.mjs status",
+    "replay:receipt": "node scripts/antimatterium-replay.mjs receipt"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",
     "./mission-energy": "./src/mission-energy.mjs",
     "./mission-runner": "./src/mission-runner.mjs",
     "./control-plane": "./src/control-plane.mjs",
-    "./runtime-kernel": "./src/runtime-kernel.mjs"
+    "./runtime-kernel": "./src/runtime-kernel.mjs",
+    "./external-replay": "./src/external-replay.mjs"
   },
   "bin": {
     "antimatterium-mission": "scripts/antimatterium-mission.mjs",
     "antimatterium-control": "./scripts/antimatterium-control.mjs",
-    "antimatterium-runtime": "./scripts/antimatterium-runtime.mjs"
+    "antimatterium-runtime": "./scripts/antimatterium-runtime.mjs",
+    "antimatterium-replay": "./scripts/antimatterium-replay.mjs"
   },
   "publishConfig": {
     "access": "public"
