@@ -1,0 +1,83 @@
+{
+  "binding": "ANTIMATTERIUM_CROSS_STACK_BINDING",
+  "version": "v0.1.8",
+  "institution": "ANTIMATTERIUM",
+  "purpose": "Bind only the external control systems that accelerate ANTIMATTERIUM without importing unrelated product domains.",
+  "included_stacks": {
+    "Verifrax": {
+      "included": true,
+      "role": "admissibility, source authority, public control-chain verification",
+      "boundary": "ANTIMATTERIUM consumes Verifrax-style verification semantics; it does not become a Verifrax chamber."
+    },
+    "INVOCORDER": {
+      "included": true,
+      "role": "machine-action evidence profile for mission estimates, verifier runs, npm publication, and release actions",
+      "boundary": "ANTIMATTERIUM binds recording profile semantics; it does not embed the recorder product."
+    },
+    "qvra": {
+      "included": true,
+      "role": "lab, run, bench, launch compatibility surface",
+      "boundary": "ANTIMATTERIUM exports runnable evidence objects for qvra; qvra remains external runtime/lab namespace."
+    }
+  },
+  "excluded_stacks": {
+    "VATFix": {
+      "included": false,
+      "reason": "tax compliance product domain; no antimatter core role"
+    },
+    "CINEMATICUM": {
+      "included": false,
+      "reason": "cinematic jurisdiction; no antimatter core role"
+    },
+    "kaaffilm": {
+      "included": false,
+      "reason": "film workspace; no antimatter core role"
+    },
+    "TRUTHFRAMER": {
+      "included": false,
+      "reason": "truth/capsule platform; future explanatory layer only"
+    },
+    "qxvi": {
+      "included": false,
+      "reason": "boundary camera may become future visual evidence dependency, not current core"
+    },
+    "qxvo": {
+      "included": false,
+      "reason": "mail-processing utility; no antimatter role"
+    },
+    "qzro": {
+      "included": false,
+      "reason": "assistant/helper utility; no antimatter role"
+    },
+    "aikido-bounty-lab": {
+      "included": false,
+      "reason": "security sandbox; no antimatter role"
+    },
+    "qvro": {
+      "included": false,
+      "reason": "namespace holding or no visible repo role"
+    },
+    "qvru": {
+      "included": false,
+      "reason": "namespace holding or no visible repo role"
+    },
+    "qxra": {
+      "included": false,
+      "reason": "namespace holding or no visible repo role"
+    },
+    "qzru": {
+      "included": false,
+      "reason": "namespace holding or no visible repo role"
+    }
+  },
+  "claim_boundary": {
+    "claims_current_industrial_antimatter_production": false,
+    "claims_current_starship_readiness": false,
+    "claims_physical_production_instructions": false
+  },
+  "completion": {
+    "CROSS_STACK_BINDING_COMPLETE": true,
+    "ONLY_RELEVANT_STACKS_IMPORTED": true,
+    "UNRELATED_STACKS_EXCLUDED": true
+  }
+}

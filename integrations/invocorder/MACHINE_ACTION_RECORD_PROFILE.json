@@ -1,0 +1,26 @@
+{
+  "profile": "ANTIMATTERIUM_INVOCORDER_MACHINE_ACTION_RECORD_PROFILE",
+  "version": "v0.1.8",
+  "external_stack": "INVOCORDER",
+  "recordable_actions": [
+    "mission estimate run",
+    "verifier run",
+    "receipt generation",
+    "release creation",
+    "npm publication",
+    "public website deployment"
+  ],
+  "required_fields": [
+    "action",
+    "input",
+    "output",
+    "timestamp",
+    "tool_or_command",
+    "claim_boundary",
+    "receipt_hash"
+  ],
+  "antimatterium_role": "ANTIMATTERIUM can emit machine-action records for its public calculations and release actions.",
+  "completion": {
+    "INVOCORDER_MACHINE_ACTION_PROFILE_BOUND": true
+  }
+}

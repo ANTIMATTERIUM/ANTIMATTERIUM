@@ -1,0 +1,21 @@
+{
+  "bridge": "ANTIMATTERIUM_VERIFRAX_ADMISSIBILITY_BRIDGE",
+  "version": "v0.1.8",
+  "external_stack": "Verifrax",
+  "accepted_semantics": [
+    "source authority index",
+    "public control-chain closure",
+    "admissibility boundary",
+    "receipt verification",
+    "external replay posture"
+  ],
+  "forbidden_imports": [
+    "Verifrax sovereign chamber identity",
+    "Verifrax truth ownership",
+    "Verifrax repo-count ontology as ANTIMATTERIUM count ontology"
+  ],
+  "antimatterium_role": "ANTIMATTERIUM uses admissibility semantics to keep antimatter mission/economy claims bounded and inspectable.",
+  "completion": {
+    "VERIFRAX_ADMISSIBILITY_BRIDGE_BOUND": true
+  }
+}
