@@ -1,0 +1,23 @@
+{
+  "binding": "ANTIMATTERIUM_QVRA_LAB_RUN_BINDING",
+  "version": "v0.1.8",
+  "external_stack": "qvra",
+  "compatible_surfaces": [
+    "lab",
+    "run",
+    "bench",
+    "launch",
+    "index"
+  ],
+  "exported_antimatterium_objects": [
+    "public/site.json",
+    "public/releases.json",
+    "examples/mission-runner-class-4.json",
+    "receipts/MISSION_CLASS_4_EXAMPLE_RECEIPT.json",
+    "NPM_PUBLICATION_RECEIPT.json"
+  ],
+  "antimatterium_role": "ANTIMATTERIUM exposes bounded mission/economy artifacts that qvra can run, index, benchmark, or launch externally.",
+  "completion": {
+    "QVRA_LAB_RUN_BINDING_BOUND": true
+  }
+}
