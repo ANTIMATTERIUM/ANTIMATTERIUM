@@ -27,8 +27,8 @@
   "artifacts": [
     {
       "path": "README.md",
-      "sha256": "4b056aab3a060f4ebafeb0972c5bec5c6388545365fda0671ba83f96dfe45032",
-      "bytes": 5660
+      "sha256": "4b725e9ad60da9f7436a680c4915517bc5fb1ebcd88788476d071ace4f540e52",
+      "bytes": 6047
     },
     {
       "path": "CHARTER_OF_ANTIMATTER_INDUSTRIALIZATION.md",
@@ -144,6 +144,31 @@
       "path": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
       "sha256": "287b5f79157d5d6aeef7d8e29f529af75630d4e66d231012138116ac39a1274e",
       "bytes": 871
+    },
+    {
+      "path": "schemas/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT_SCHEMA.json",
+      "sha256": "ccd8823cee06c6a79e420925ae4a697b5d9bdf4b2e8bbf46ab158d2f5e6b59b2",
+      "bytes": 1212
+    },
+    {
+      "path": "src/external-replay.mjs",
+      "sha256": "704beb0087e0225e6c9ad9eb2a71efe19b2fad284dc95587c18917a7c7dabd7e",
+      "bytes": 6086
+    },
+    {
+      "path": "scripts/antimatterium-replay.mjs",
+      "sha256": "eaffd66cfcf938f9129e05efcfa46ccb2ad25b0d0cc6cf527e1bab9f7011f925",
+      "bytes": 1534
+    },
+    {
+      "path": "scripts/antimatterium-external-clone-replay.sh",
+      "sha256": "058518032de97f07ff51e40491f6481ede59d3d2e7d0b1ab0c4016fa9a22eda0",
+      "bytes": 651
+    },
+    {
+      "path": "scripts/verify-external-replay.mjs",
+      "sha256": "b03afa1dae970b4d3f2a6a0ee35f9f1e299be5d3b861c3e6e8079e053c7bc572",
+      "bytes": 1083
     }
   ],
   "graph": {
@@ -183,6 +208,10 @@
       {
         "id": "RUNTIME_KERNEL",
         "type": "admission_runtime_kernel"
+      },
+      {
+        "id": "EXTERNAL_REPLAY",
+        "type": "external_replay_receipt"
       }
     ],
     "edges": [
@@ -225,11 +254,16 @@
         "ANTIMATTERIUM",
         "RUNTIME_KERNEL",
         "executed_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "EXTERNAL_REPLAY",
+        "verified_by"
       ]
     ]
   },
   "digest": {
     "algorithm": "sha256",
-    "sha256": "018f4d07aef7355735b4d539dfa146a6055f09724acdc5b398e170389ac41e9b"
+    "sha256": "e369b24436ca164e186ec38f4223db6a31118bfe049c659c2475f090a19075aa"
   }
 }

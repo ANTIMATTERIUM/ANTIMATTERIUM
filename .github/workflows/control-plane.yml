@@ -1,31 +1,32 @@
 name: ANTIMATTERIUM Control Plane
 
 on:
-  push:
-  pull_request:
+push:
+pull_request:
 
 jobs:
-  verify:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "24"
-      - run: npm install
-      - run: npm test
-      - run: npm run verify
-      - run: npm run verify:receipts
-      - run: npm run verify:index
-      - run: npm run verify:seal
-      - run: npm run verify:npm
-      - run: npm run verify:bindings
-      - run: npm run verify:invocorder-recognition
-      - run: npm run verify:qvra-recognition
-      - run: npm run verify:qvra-full-chain
-      - run: npm run verify:npm-021
-      - run: npm run verify:privacy
-      - run: npm run verify:claims
-      - run: npm run verify:control
-      - run: npm run verify:runtime
-      - run: node --test tests/economy-engine.test.mjs tests/mission-runner.test.mjs tests/control-plane.test.mjs tests/runtime-kernel.test.mjs
+verify:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+- uses: actions/setup-node@v4
+with:
+node-version: "24"
+- run: npm install
+- run: npm test
+- run: npm run verify
+- run: npm run verify:receipts
+- run: npm run verify:index
+- run: npm run verify:seal
+- run: npm run verify:npm
+- run: npm run verify:bindings
+- run: npm run verify:invocorder-recognition
+- run: npm run verify:qvra-recognition
+- run: npm run verify:qvra-full-chain
+- run: npm run verify:npm-021
+- run: npm run verify:privacy
+- run: npm run verify:claims
+- run: npm run verify:control
+- run: npm run verify:runtime
+- run: npm run verify:replay
+- run: node --test tests/economy-engine.test.mjs tests/mission-runner.test.mjs tests/control-plane.test.mjs tests/runtime-kernel.test.mjs tests/external-replay.test.mjs

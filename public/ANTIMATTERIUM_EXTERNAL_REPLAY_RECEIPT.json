@@ -1,0 +1,174 @@
+{
+  "schema": "ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT",
+  "object": "ANTIMATTERIUM",
+  "replay_version": "0.2.7-external-replay-runner",
+  "mode": "local_replay",
+  "source_release": "v0.2.6-antimatterium-runtime-kernel",
+  "source_commit": "BOUND_BY_RELEASE_TAG_AFTER_MERGE",
+  "control_plane_digest": "e369b24436ca164e186ec38f4223db6a31118bfe049c659c2475f090a19075aa",
+  "runtime_event_id": "f4923422f6f97910816b685376aacf9697222a6c09b1c0cabdb63419c07616d7",
+  "artifact_count": 20,
+  "artifact_digests": [
+    {
+      "path": "README.md",
+      "algorithm": "sha256",
+      "sha256": "4b725e9ad60da9f7436a680c4915517bc5fb1ebcd88788476d071ace4f540e52"
+    },
+    {
+      "path": "package.json",
+      "algorithm": "sha256",
+      "sha256": "18f9c3e0d44714d80f71ac4f00f8013e559207246017b5be0b291f38e09f7da7"
+    },
+    {
+      "path": "public/antimatterium.json",
+      "algorithm": "sha256",
+      "sha256": "5d02bce608787e6b08205045a22e9af157e63ae191553cc02ec8e634a6c4e3c3"
+    },
+    {
+      "path": "public/releases.json",
+      "algorithm": "sha256",
+      "sha256": "c9ef3d475d76396b79d6403605489d77fbdf5ae2d5677a6bc3f16f177718ee1a"
+    },
+    {
+      "path": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
+      "algorithm": "sha256",
+      "sha256": "49cf3a77b8649d943e29e8d956ef0498a0c6b248a97b13e0f38b49ff32a13a52"
+    },
+    {
+      "path": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+      "algorithm": "sha256",
+      "sha256": "287b5f79157d5d6aeef7d8e29f529af75630d4e66d231012138116ac39a1274e"
+    },
+    {
+      "path": "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
+      "algorithm": "sha256",
+      "sha256": "fb3899e19b7bd8ffee481919c5ec8d16e7de1461a32e82d6b30bf3be75e48954"
+    },
+    {
+      "path": "schemas/ANTIMATTERIUM_RUNTIME_KERNEL_SCHEMA.json",
+      "algorithm": "sha256",
+      "sha256": "1414513ed84c3b613d5ad296a6459228783a4372f16391a4c802cf2d75fbbd03"
+    },
+    {
+      "path": "schemas/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT_SCHEMA.json",
+      "algorithm": "sha256",
+      "sha256": "ccd8823cee06c6a79e420925ae4a697b5d9bdf4b2e8bbf46ab158d2f5e6b59b2"
+    },
+    {
+      "path": "src/control-plane.mjs",
+      "algorithm": "sha256",
+      "sha256": "a2970e71b0e2de4ee47b0092c5b68d8c8a1303e162ffd577fb9967b9241db70b"
+    },
+    {
+      "path": "src/runtime-kernel.mjs",
+      "algorithm": "sha256",
+      "sha256": "3ec190adf34041c16c44748f756a090e52e73d4332f9fd1d6c114e1e111a753a"
+    },
+    {
+      "path": "src/external-replay.mjs",
+      "algorithm": "sha256",
+      "sha256": "704beb0087e0225e6c9ad9eb2a71efe19b2fad284dc95587c18917a7c7dabd7e"
+    },
+    {
+      "path": "scripts/antimatterium-control.mjs",
+      "algorithm": "sha256",
+      "sha256": "faf5a8052e132b6b35acbb02a9a8831fa0fb10b5c9efe76dd6ec9daa29acfdb6"
+    },
+    {
+      "path": "scripts/antimatterium-runtime.mjs",
+      "algorithm": "sha256",
+      "sha256": "0e515ca48340c904c70b33b45ac42ad2a92eb951a77d701a4adee81d4845afc2"
+    },
+    {
+      "path": "scripts/antimatterium-replay.mjs",
+      "algorithm": "sha256",
+      "sha256": "eaffd66cfcf938f9129e05efcfa46ccb2ad25b0d0cc6cf527e1bab9f7011f925"
+    },
+    {
+      "path": "scripts/verify-control-plane.mjs",
+      "algorithm": "sha256",
+      "sha256": "f90a05f091f095e0ed37c644dfa1c19a7a499d85ed0fcf6e42ab798cb57743ce"
+    },
+    {
+      "path": "scripts/verify-runtime-kernel.mjs",
+      "algorithm": "sha256",
+      "sha256": "65a8269542866661918835eadb81f906bdc186914d8a37978970bb4507240b8b"
+    },
+    {
+      "path": "scripts/verify-external-replay.mjs",
+      "algorithm": "sha256",
+      "sha256": "b03afa1dae970b4d3f2a6a0ee35f9f1e299be5d3b861c3e6e8079e053c7bc572"
+    },
+    {
+      "path": "examples/runtime/mission-estimate-input.json",
+      "algorithm": "sha256",
+      "sha256": "171711096c4296bb4d7c5026e0379251c27483b860de23da0460008ac77d11b3"
+    },
+    {
+      "path": "docs/CONTROL_PLANE.md",
+      "algorithm": "sha256",
+      "sha256": "692c031a465a3dbaf6c70d5456a5de0ca5245bc1b8eba61d7fc73f5d8b5d4264"
+    }
+  ],
+  "commands": [
+    "npm test",
+    "npm run verify",
+    "npm run verify:privacy",
+    "npm run verify:claims",
+    "npm run verify:control",
+    "npm run verify:runtime",
+    "node scripts/antimatterium-runtime.mjs verify-event examples/runtime/mission-estimate-input.json public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json"
+  ],
+  "results": [
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    },
+    {
+      "command": "npm run verify",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    },
+    {
+      "command": "npm run verify:privacy",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    },
+    {
+      "command": "npm run verify:claims",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    },
+    {
+      "command": "npm run verify:control",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    },
+    {
+      "command": "npm run verify:runtime",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    },
+    {
+      "command": "node scripts/antimatterium-runtime.mjs verify-event examples/runtime/mission-estimate-input.json public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+      "exit_code": 0,
+      "pass": true,
+      "output_sha256": "not_executed_in_static_receipt"
+    }
+  ],
+  "boundaries": {
+    "current_production_claim": false,
+    "starship_readiness_claim": false,
+    "physical_instruction_content": false,
+    "private_inventory_content": false,
+    "unrelated_namespace_inventory": false
+  },
+  "replay_id": "e3f6b5802139ba12b7dba14729960522facd09ca2527da92d0835941431ff021"
+}

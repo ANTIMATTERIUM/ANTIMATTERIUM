@@ -174,3 +174,15 @@ node scripts/antimatterium-runtime.mjs event examples/runtime/mission-estimate-i
 ```
 
 The runtime kernel performs admission checks, emits replayable runtime events, and binds input/output digests without physical-production instructions.
+
+## External Replay Runner
+
+ANTIMATTERIUM includes an external replay runner that binds the public release, control-plane digest, runtime event, artifact digests, and replay commands into one public receipt.
+
+```bash
+npm run verify:replay
+node scripts/antimatterium-replay.mjs status
+node scripts/antimatterium-replay.mjs receipt
+bash scripts/antimatterium-external-clone-replay.sh
+```
+

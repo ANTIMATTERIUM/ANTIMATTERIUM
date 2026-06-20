@@ -50,3 +50,16 @@ node scripts/antimatterium-runtime.mjs event examples/runtime/mission-estimate-i
 node scripts/antimatterium-runtime.mjs verify-event examples/runtime/mission-estimate-input.json public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json
 ````
 
+
+## External Replay Runner
+
+The external replay runner turns the public release into a replayable receipt.
+
+```bash
+npm run verify:replay
+node scripts/antimatterium-replay.mjs status
+node scripts/antimatterium-replay.mjs receipt
+node scripts/antimatterium-replay.mjs verify public/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT.json
+bash scripts/antimatterium-external-clone-replay.sh
+````
+
