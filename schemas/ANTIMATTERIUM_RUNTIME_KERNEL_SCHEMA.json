@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/schemas/ANTIMATTERIUM_RUNTIME_KERNEL_SCHEMA.json",
+  "title": "ANTIMATTERIUM Runtime Kernel Event",
+  "type": "object",
+  "required": [
+    "schema",
+    "object",
+    "kernel_version",
+    "event_id",
+    "event_type",
+    "input_digest",
+    "output_digest",
+    "admission",
+    "boundaries",
+    "timestamp_utc"
+  ],
+  "properties": {
+    "schema": { "const": "ANTIMATTERIUM_RUNTIME_KERNEL_EVENT" },
+    "object": { "const": "ANTIMATTERIUM" },
+    "kernel_version": { "type": "string" },
+    "event_id": { "type": "string" },
+    "event_type": { "type": "string" },
+    "input_digest": {
+      "type": "object",
+      "required": ["algorithm", "sha256"],
+      "properties": {
+        "algorithm": { "const": "sha256" },
+        "sha256": { "type": "string" }
+      }
+    },
+    "output_digest": {
+      "type": "object",
+      "required": ["algorithm", "sha256"],
+      "properties": {
+        "algorithm": { "const": "sha256" },
+        "sha256": { "type": "string" }
+      }
+    },
+    "admission": {
+      "type": "object",
+      "required": ["accepted", "reason"],
+      "properties": {
+        "accepted": { "type": "boolean" },
+        "reason": { "type": "string" }
+      }
+    },
+    "boundaries": {
+      "type": "object",
+      "required": [
+        "current_production_claim",
+        "starship_readiness_claim",
+        "physical_instruction_content",
+        "private_inventory_content",
+        "unrelated_namespace_inventory"
+      ],
+      "properties": {
+        "current_production_claim": { "const": false },
+        "starship_readiness_claim": { "const": false },
+        "physical_instruction_content": { "const": false },
+        "private_inventory_content": { "const": false },
+        "unrelated_namespace_inventory": { "const": false }
+      }
+    },
+    "timestamp_utc": { "type": "string" }
+  }
+}

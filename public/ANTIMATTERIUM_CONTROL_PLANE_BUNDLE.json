@@ -27,8 +27,8 @@
   "artifacts": [
     {
       "path": "README.md",
-      "sha256": "dc9fbe0cf2dcfec6cb183ae0539fe45d0f87a804b04a14795291c4bb725b1974",
-      "bytes": 5136
+      "sha256": "4b056aab3a060f4ebafeb0972c5bec5c6388545365fda0671ba83f96dfe45032",
+      "bytes": 5660
     },
     {
       "path": "CHARTER_OF_ANTIMATTER_INDUSTRIALIZATION.md",
@@ -119,6 +119,31 @@
       "path": "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
       "sha256": "fb3899e19b7bd8ffee481919c5ec8d16e7de1461a32e82d6b30bf3be75e48954",
       "bytes": 2249
+    },
+    {
+      "path": "schemas/ANTIMATTERIUM_RUNTIME_KERNEL_SCHEMA.json",
+      "sha256": "1414513ed84c3b613d5ad296a6459228783a4372f16391a4c802cf2d75fbbd03",
+      "bytes": 1949
+    },
+    {
+      "path": "src/runtime-kernel.mjs",
+      "sha256": "3ec190adf34041c16c44748f756a090e52e73d4332f9fd1d6c114e1e111a753a",
+      "bytes": 4786
+    },
+    {
+      "path": "scripts/antimatterium-runtime.mjs",
+      "sha256": "0e515ca48340c904c70b33b45ac42ad2a92eb951a77d701a4adee81d4845afc2",
+      "bytes": 1816
+    },
+    {
+      "path": "scripts/verify-runtime-kernel.mjs",
+      "sha256": "65a8269542866661918835eadb81f906bdc186914d8a37978970bb4507240b8b",
+      "bytes": 1399
+    },
+    {
+      "path": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+      "sha256": "287b5f79157d5d6aeef7d8e29f529af75630d4e66d231012138116ac39a1274e",
+      "bytes": 871
     }
   ],
   "graph": {
@@ -154,6 +179,10 @@
       {
         "id": "NPM_RECEIPT",
         "type": "package_receipt"
+      },
+      {
+        "id": "RUNTIME_KERNEL",
+        "type": "admission_runtime_kernel"
       }
     ],
     "edges": [
@@ -191,11 +220,16 @@
         "ANTIMATTERIUM",
         "NPM_RECEIPT",
         "distributed_as"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "RUNTIME_KERNEL",
+        "executed_by"
       ]
     ]
   },
   "digest": {
     "algorithm": "sha256",
-    "sha256": "dc9cba646436822f0aa2b2b8e1be8479319bb446ff0a804069bf6f9195fc2cee"
+    "sha256": "018f4d07aef7355735b4d539dfa146a6055f09724acdc5b398e170389ac41e9b"
   }
 }

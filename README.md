@@ -161,3 +161,16 @@ schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json
 docs/CONTROL_PLANE.md
 ```
 
+
+## Runtime Kernel
+
+ANTIMATTERIUM now includes a runtime kernel for public bounded execution.
+
+```bash id="ul6kc2"
+npm run verify:runtime
+node scripts/antimatterium-runtime.mjs status
+node scripts/antimatterium-runtime.mjs estimate examples/runtime/mission-estimate-input.json
+node scripts/antimatterium-runtime.mjs event examples/runtime/mission-estimate-input.json
+```
+
+The runtime kernel performs admission checks, emits replayable runtime events, and binds input/output digests without physical-production instructions.
