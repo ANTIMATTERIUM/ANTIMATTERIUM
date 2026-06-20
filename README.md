@@ -8,7 +8,7 @@ Not fantasy propulsion.
 Not a laboratory claim.
 Not a particle accelerator project.
 Not a starship company.
-Not a weapon project.
+Not a harmful-systems project.
 Not a DIY antimatter machine.
 
 ANTIMATTERIUM begins at the only lawful current position:
@@ -133,7 +133,7 @@ ANTIMATTERIUM is not a production facility.
 
 ANTIMATTERIUM is not a propulsion test range.
 
-ANTIMATTERIUM is not a weapons research program.
+ANTIMATTERIUM is not a harmful-systems research program.
 
 ANTIMATTERIUM is not a launch provider.
 
