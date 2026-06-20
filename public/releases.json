@@ -4,6 +4,45 @@
   "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
   "releases": [
     {
+      "version": "0.2.7",
+      "tag": "v0.2.7-antimatterium-external-replay-runner",
+      "title": "ANTIMATTERIUM v0.2.7 \u2014 External Replay Runner",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.7-antimatterium-external-replay-runner",
+      "receipt": "public/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT.json",
+      "control_plane": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
+      "runtime_event": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true
+      }
+    },
+    {
+      "version": "0.2.6",
+      "tag": "v0.2.6-antimatterium-runtime-kernel",
+      "title": "ANTIMATTERIUM v0.2.6 \u2014 Runtime Kernel",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.6-antimatterium-runtime-kernel",
+      "runtime_event": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
+      "control_plane": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true
+      }
+    },
+    {
+      "version": "0.2.5",
+      "tag": "v0.2.5-antimatterium-control-plane",
+      "title": "ANTIMATTERIUM v0.2.5 \u2014 Deterministic Control Plane",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.5-antimatterium-control-plane",
+      "control_plane": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true
+      }
+    },
+    {
       "version": "v0.1.0",
       "tag": "v0.1.0-antimatterium-industrialization-charter",
       "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.1.0-antimatterium-industrialization-charter",
@@ -32,5 +71,6 @@
     "claims_current_industrial_antimatter_production": false,
     "claims_current_starship_readiness": false,
     "claims_physical_production_instructions": false
-  }
+  },
+  "latest": "v0.2.7-antimatterium-external-replay-runner"
 }

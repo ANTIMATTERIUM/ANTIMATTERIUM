@@ -22,17 +22,17 @@
     {
       "path": "public/antimatterium.json",
       "algorithm": "sha256",
-      "sha256": "5d02bce608787e6b08205045a22e9af157e63ae191553cc02ec8e634a6c4e3c3"
+      "sha256": "0efd1e8fa2d248f717dc33da402f7f1030deee56ee78f43b9d00b178b6678751"
     },
     {
       "path": "public/releases.json",
       "algorithm": "sha256",
-      "sha256": "c9ef3d475d76396b79d6403605489d77fbdf5ae2d5677a6bc3f16f177718ee1a"
+      "sha256": "6e67cdd2ed1bc0189a9b713c1c4080c342aa173a71cc8b4c9ea3d8e019ac4274"
     },
     {
       "path": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
       "algorithm": "sha256",
-      "sha256": "49cf3a77b8649d943e29e8d956ef0498a0c6b248a97b13e0f38b49ff32a13a52"
+      "sha256": "d556daab44a76f3e30ab2460ae645d2835b905249432912fc8d31b1fba265095"
     },
     {
       "path": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
@@ -170,5 +170,5 @@
     "private_inventory_content": false,
     "unrelated_namespace_inventory": false
   },
-  "replay_id": "e3f6b5802139ba12b7dba14729960522facd09ca2527da92d0835941431ff021"
+  "replay_id": "f522d7cd5371b9f18dd9d200578d666d7999d5717f1b5144143a5e4d2afe5171"
 }

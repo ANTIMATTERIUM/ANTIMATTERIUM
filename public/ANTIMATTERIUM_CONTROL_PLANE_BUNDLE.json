@@ -47,13 +47,13 @@
     },
     {
       "path": "public/antimatterium.json",
-      "sha256": "5d02bce608787e6b08205045a22e9af157e63ae191553cc02ec8e634a6c4e3c3",
-      "bytes": 924
+      "sha256": "0efd1e8fa2d248f717dc33da402f7f1030deee56ee78f43b9d00b178b6678751",
+      "bytes": 1439
     },
     {
       "path": "public/releases.json",
-      "sha256": "c9ef3d475d76396b79d6403605489d77fbdf5ae2d5677a6bc3f16f177718ee1a",
-      "bytes": 1341
+      "sha256": "6e67cdd2ed1bc0189a9b713c1c4080c342aa173a71cc8b4c9ea3d8e019ac4274",
+      "bytes": 3150
     },
     {
       "path": "integrations/CROSS_STACK_BINDING.json",
