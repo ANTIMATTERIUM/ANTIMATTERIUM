@@ -5,5 +5,12 @@
   "claims_current_industrial_antimatter_production": false,
   "claims_current_starship_readiness": false,
   "public_repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
-  "primary_release": "v0.1.0-antimatterium-industrialization-charter"
+  "primary_release": "v0.1.0-antimatterium-industrialization-charter",
+  "control_plane": {
+    "release": "[https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.5-antimatterium-control-plane](https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.5-antimatterium-control-plane)",
+    "bundle": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
+    "schema": "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
+    "status_command": "antimatterium-control status",
+    "verify_command": "npm run verify:control"
+  }
 }

@@ -142,3 +142,22 @@ ANTIMATTERIUM is the industrial evidence and architecture layer required before 
 ## License
 
 Apache License 2.0.
+
+## Control Plane
+
+ANTIMATTERIUM now includes a deterministic public control plane.
+
+```bash
+npm run verify:control
+node scripts/antimatterium-control.mjs status
+node scripts/antimatterium-control.mjs digest
+````
+
+The control plane binds public receipts, indexes, model files, source authority, external recognition receipts, and package receipt into one digest-addressed bundle:
+
+```text
+public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json
+schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json
+docs/CONTROL_PLANE.md
+```
+
