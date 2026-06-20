@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/schemas/ANTIMATTERIUM_PUBLIC_CLOSURE_AUDIT_SCHEMA.json",
+  "title": "ANTIMATTERIUM Public Closure Audit",
+  "type": "object",
+  "required": [
+    "schema",
+    "object",
+    "audit_version",
+    "audit_id",
+    "core",
+    "www",
+    "org_profile",
+    "npm",
+    "bound_identifiers",
+    "verification",
+    "boundaries"
+  ],
+  "properties": {
+    "schema": { "const": "ANTIMATTERIUM_PUBLIC_CLOSURE_AUDIT" },
+    "object": { "const": "ANTIMATTERIUM" },
+    "audit_version": { "type": "string" },
+    "audit_id": { "type": "string" },
+    "core": { "type": "object" },
+    "www": { "type": "object" },
+    "org_profile": { "type": "object" },
+    "npm": { "type": "object" },
+    "bound_identifiers": { "type": "object" },
+    "verification": { "type": "object" },
+    "boundaries": { "type": "object" }
+  }
+}

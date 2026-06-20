@@ -186,3 +186,13 @@ node scripts/antimatterium-replay.mjs receipt
 bash scripts/antimatterium-external-clone-replay.sh
 ```
 
+
+## Public Closure Audit
+
+ANTIMATTERIUM includes a public closure audit binding the core external replay runner, WWW projection, organization profile projection, npm package, control-plane digest, runtime event ID, and replay ID.
+
+```bash
+npm run verify:audit
+antimatterium-audit status
+```
+

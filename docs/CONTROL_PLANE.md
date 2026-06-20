@@ -63,3 +63,14 @@ node scripts/antimatterium-replay.mjs verify public/ANTIMATTERIUM_EXTERNAL_REPLA
 bash scripts/antimatterium-external-clone-replay.sh
 ````
 
+
+## Public Closure Audit
+
+The public closure audit binds the core release, public website projection, GitHub organization profile projection, npm package, control digest, runtime event, replay receipt, and boundary flags into one audit receipt.
+
+```bash
+npm run verify:audit
+node scripts/antimatterium-audit.mjs status
+node scripts/antimatterium-audit.mjs receipt
+````
+
