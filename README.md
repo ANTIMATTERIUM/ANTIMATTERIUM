@@ -196,3 +196,13 @@ npm run verify:audit
 antimatterium-audit status
 ```
 
+
+## External Public Verify
+
+Run a clean public replay from a temporary directory:
+
+```bash
+bash scripts/antimatterium-public-external-verify.sh
+```
+
+Expected bound outputs are checked against the public closure audit.

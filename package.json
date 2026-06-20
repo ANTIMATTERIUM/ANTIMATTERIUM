@@ -28,7 +28,9 @@
     "replay:receipt": "node scripts/antimatterium-replay.mjs receipt",
     "verify:audit": "node scripts/verify-public-closure-audit.mjs",
     "audit:status": "node scripts/antimatterium-audit.mjs status",
-    "audit:receipt": "node scripts/antimatterium-audit.mjs receipt"
+    "audit:receipt": "node scripts/antimatterium-audit.mjs receipt",
+    "verify:external-public": "node scripts/verify-external-public-verifier.mjs",
+    "external:public": "bash scripts/antimatterium-public-external-verify.sh"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",
@@ -44,7 +46,8 @@
     "antimatterium-control": "./scripts/antimatterium-control.mjs",
     "antimatterium-runtime": "./scripts/antimatterium-runtime.mjs",
     "antimatterium-replay": "./scripts/antimatterium-replay.mjs",
-    "antimatterium-audit": "./scripts/antimatterium-audit.mjs"
+    "antimatterium-audit": "./scripts/antimatterium-audit.mjs",
+    "antimatterium-public-external-verify": "./scripts/antimatterium-public-external-verify.sh"
   },
   "publishConfig": {
     "access": "public"

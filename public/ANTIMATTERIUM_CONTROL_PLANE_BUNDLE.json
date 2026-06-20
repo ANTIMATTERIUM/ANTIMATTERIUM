@@ -27,8 +27,8 @@
   "artifacts": [
     {
       "path": "README.md",
-      "sha256": "706fc65ac7d4535f986d74f3c50fbe5a92e726cf273c5492a78a34b33d571e3f",
-      "bytes": 6339
+      "sha256": "8b0129fdbf54c5727da148b7023f743581d38b7a12bd4624d7a3e0a8c7c5adc7",
+      "bytes": 6557
     },
     {
       "path": "CHARTER_OF_ANTIMATTER_INDUSTRIALIZATION.md",
@@ -47,13 +47,13 @@
     },
     {
       "path": "public/antimatterium.json",
-      "sha256": "0efd1e8fa2d248f717dc33da402f7f1030deee56ee78f43b9d00b178b6678751",
-      "bytes": 1439
+      "sha256": "105f1d28d3e6bd315fb684878794fb65c6274b2e8e782625a48045c7175227b4",
+      "bytes": 1816
     },
     {
       "path": "public/releases.json",
-      "sha256": "6e67cdd2ed1bc0189a9b713c1c4080c342aa173a71cc8b4c9ea3d8e019ac4274",
-      "bytes": 3150
+      "sha256": "164084e17d2dfa1a4c9e655f75ebc1a620a035da0223061382a6a6b65bf5e04d",
+      "bytes": 4394
     },
     {
       "path": "integrations/CROSS_STACK_BINDING.json",
@@ -216,6 +216,10 @@
       {
         "id": "PUBLIC_CLOSURE_AUDIT",
         "type": "cross_surface_audit_receipt"
+      },
+      {
+        "id": "EXTERNAL_PUBLIC_VERIFIER",
+        "type": "external_public_verifier_receipt"
       }
     ],
     "edges": [
@@ -268,6 +272,11 @@
         "ANTIMATTERIUM",
         "PUBLIC_CLOSURE_AUDIT",
         "closed_by"
+      ],
+      [
+        "ANTIMATTERIUM",
+        "EXTERNAL_PUBLIC_VERIFIER",
+        "externally_verifiable_by"
       ]
     ]
   },
