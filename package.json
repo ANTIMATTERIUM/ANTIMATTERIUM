@@ -20,17 +20,21 @@
     "verify:claims": "node scripts/verify-claim-boundary-scan.mjs",
     "verify:control": "node scripts/verify-control-plane.mjs",
     "control:status": "node scripts/antimatterium-control.mjs status",
-    "control:bundle": "node scripts/antimatterium-control.mjs bundle"
+    "control:bundle": "node scripts/antimatterium-control.mjs bundle",
+    "verify:runtime": "node scripts/verify-runtime-kernel.mjs",
+    "runtime:status": "node scripts/antimatterium-runtime.mjs status"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",
     "./mission-energy": "./src/mission-energy.mjs",
     "./mission-runner": "./src/mission-runner.mjs",
-    "./control-plane": "./src/control-plane.mjs"
+    "./control-plane": "./src/control-plane.mjs",
+    "./runtime-kernel": "./src/runtime-kernel.mjs"
   },
   "bin": {
     "antimatterium-mission": "scripts/antimatterium-mission.mjs",
-    "antimatterium-control": "./scripts/antimatterium-control.mjs"
+    "antimatterium-control": "./scripts/antimatterium-control.mjs",
+    "antimatterium-runtime": "./scripts/antimatterium-runtime.mjs"
   },
   "publishConfig": {
     "access": "public"

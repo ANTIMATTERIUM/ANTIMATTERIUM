@@ -1,0 +1,27 @@
+{
+  "schema": "ANTIMATTERIUM_RUNTIME_KERNEL_EVENT",
+  "object": "ANTIMATTERIUM",
+  "kernel_version": "0.2.6-runtime-kernel",
+  "event_type": "mission_estimate",
+  "input_digest": {
+    "algorithm": "sha256",
+    "sha256": "c77fe1beb3a39eda3908f2aeb84ef02be24f5171ac05c1a7a92a1738b2834fed"
+  },
+  "output_digest": {
+    "algorithm": "sha256",
+    "sha256": "f7925a77272253ed5cfb5d0aa92a2c2b71f42036677ecb8e09097b32abeb8613"
+  },
+  "admission": {
+    "accepted": true,
+    "reason": "accepted_public_bounded_input"
+  },
+  "boundaries": {
+    "current_production_claim": false,
+    "starship_readiness_claim": false,
+    "physical_instruction_content": false,
+    "private_inventory_content": false,
+    "unrelated_namespace_inventory": false
+  },
+  "timestamp_utc": "1970-01-01T00:00:00Z",
+  "event_id": "f4923422f6f97910816b685376aacf9697222a6c09b1c0cabdb63419c07616d7"
+}

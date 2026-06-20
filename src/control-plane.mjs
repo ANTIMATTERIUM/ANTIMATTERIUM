@@ -25,7 +25,12 @@ const REQUIRED_ARTIFACTS = [
   "models/STARFLIGHT_ASSUMPTION_LEDGER.json",
   "sources/SOURCE_AUTHORITY_INDEX.json",
   "standards/ANTIMATTERIUM_STANDARD.json",
-  "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json"
+  "schemas/ANTIMATTERIUM_CONTROL_PLANE_SCHEMA.json",
+  "schemas/ANTIMATTERIUM_RUNTIME_KERNEL_SCHEMA.json",
+  "src/runtime-kernel.mjs",
+  "scripts/antimatterium-runtime.mjs",
+  "scripts/verify-runtime-kernel.mjs",
+  "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json"
 ];
 
 function read(file) {
@@ -94,7 +99,8 @@ function graph() {
       { id: "VERIFRAX_BRIDGE", type: "admissibility_bridge" },
       { id: "INVOCORDER_PROFILE", type: "machine_action_profile" },
       { id: "QVRA_BINDING", type: "external_lab_binding" },
-      { id: "NPM_RECEIPT", type: "package_receipt" }
+      { id: "NPM_RECEIPT", type: "package_receipt" },
+      { id: "RUNTIME_KERNEL", type: "admission_runtime_kernel" }
     ],
     edges: [
       ["ANTIMATTERIUM", "CONTROL_SEAL", "sealed_by"],
@@ -103,7 +109,8 @@ function graph() {
       ["ANTIMATTERIUM", "VERIFRAX_BRIDGE", "admitted_by"],
       ["ANTIMATTERIUM", "INVOCORDER_PROFILE", "recordable_by"],
       ["ANTIMATTERIUM", "QVRA_BINDING", "recognized_by"],
-      ["ANTIMATTERIUM", "NPM_RECEIPT", "distributed_as"]
+      ["ANTIMATTERIUM", "NPM_RECEIPT", "distributed_as"],
+      ["ANTIMATTERIUM", "RUNTIME_KERNEL", "executed_by"]
     ]
   };
 }

@@ -37,3 +37,16 @@ NO_PERSONAL_STACK_INVENTORY=true
 NO_UNRELATED_NAMESPACE_INVENTORY=true
 ```
 
+
+## Runtime Kernel
+
+The runtime kernel adds executable admission, bounded estimate execution, event digesting, and replay verification.
+
+```bash id="zxy3nc"
+npm run verify:runtime
+node scripts/antimatterium-runtime.mjs status
+node scripts/antimatterium-runtime.mjs estimate examples/runtime/mission-estimate-input.json
+node scripts/antimatterium-runtime.mjs event examples/runtime/mission-estimate-input.json
+node scripts/antimatterium-runtime.mjs verify-event examples/runtime/mission-estimate-input.json public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json
+````
+
