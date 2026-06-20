@@ -20,7 +20,13 @@
     "verify_command": "npm run verify:replay",
     "status_command": "antimatterium-replay status"
   },
-  "latest_release": "v0.2.7-antimatterium-external-replay-runner",
+  "latest_release": "v0.2.9-antimatterium-external-public-verifier",
   "object": "ANTIMATTERIUM",
-  "name": "ANTIMATTERIUM"
+  "name": "ANTIMATTERIUM",
+  "external_public_verifier": {
+    "release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.9-antimatterium-external-public-verifier",
+    "receipt": "public/verifiers/ANTIMATTERIUM_EXTERNAL_PUBLIC_VERIFIER.json",
+    "script": "scripts/antimatterium-public-external-verify.sh",
+    "command": "bash scripts/antimatterium-public-external-verify.sh"
+  }
 }

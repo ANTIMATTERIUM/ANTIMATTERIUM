@@ -4,9 +4,36 @@
   "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
   "releases": [
     {
+      "version": "0.2.9",
+      "tag": "v0.2.9-antimatterium-external-public-verifier",
+      "title": "ANTIMATTERIUM v0.2.9 — External Public Verifier",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.9-antimatterium-external-public-verifier",
+      "verifier": "public/verifiers/ANTIMATTERIUM_EXTERNAL_PUBLIC_VERIFIER.json",
+      "script": "scripts/antimatterium-public-external-verify.sh",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true
+      }
+    },
+    {
+      "version": "0.2.8",
+      "tag": "v0.2.8-antimatterium-public-closure-audit",
+      "title": "ANTIMATTERIUM v0.2.8 — Public Closure Audit",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.8-antimatterium-public-closure-audit",
+      "audit": "audits/public-closure/ANTIMATTERIUM_PUBLIC_CLOSURE_AUDIT_V027.json",
+      "schema": "schemas/ANTIMATTERIUM_PUBLIC_CLOSURE_AUDIT_SCHEMA.json",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+        "NON_PUBLIC_INFORMATION_EXCLUDED": true
+      }
+    },
+    {
       "version": "0.2.7",
       "tag": "v0.2.7-antimatterium-external-replay-runner",
-      "title": "ANTIMATTERIUM v0.2.7 \u2014 External Replay Runner",
+      "title": "ANTIMATTERIUM v0.2.7 — External Replay Runner",
       "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.7-antimatterium-external-replay-runner",
       "receipt": "public/ANTIMATTERIUM_EXTERNAL_REPLAY_RECEIPT.json",
       "control_plane": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
@@ -20,7 +47,7 @@
     {
       "version": "0.2.6",
       "tag": "v0.2.6-antimatterium-runtime-kernel",
-      "title": "ANTIMATTERIUM v0.2.6 \u2014 Runtime Kernel",
+      "title": "ANTIMATTERIUM v0.2.6 — Runtime Kernel",
       "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.6-antimatterium-runtime-kernel",
       "runtime_event": "public/ANTIMATTERIUM_RUNTIME_EVENT_EXAMPLE.json",
       "control_plane": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
@@ -33,7 +60,7 @@
     {
       "version": "0.2.5",
       "tag": "v0.2.5-antimatterium-control-plane",
-      "title": "ANTIMATTERIUM v0.2.5 \u2014 Deterministic Control Plane",
+      "title": "ANTIMATTERIUM v0.2.5 — Deterministic Control Plane",
       "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.5-antimatterium-control-plane",
       "control_plane": "public/ANTIMATTERIUM_CONTROL_PLANE_BUNDLE.json",
       "boundaries": {
@@ -72,5 +99,5 @@
     "claims_current_starship_readiness": false,
     "claims_physical_production_instructions": false
   },
-  "latest": "v0.2.7-antimatterium-external-replay-runner"
+  "latest": "v0.2.9-antimatterium-external-public-verifier"
 }

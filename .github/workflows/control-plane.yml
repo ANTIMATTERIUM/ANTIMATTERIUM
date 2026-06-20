@@ -30,4 +30,4 @@ node-version: "24"
 - run: npm run verify:runtime
 - run: npm run verify:replay
 - run: npm run verify:audit
-- run: node --test tests/economy-engine.test.mjs tests/mission-runner.test.mjs tests/control-plane.test.mjs tests/runtime-kernel.test.mjs tests/external-replay.test.mjs tests/public-closure-audit.test.mjs
+- run: node --test tests/economy-engine.test.mjs tests/mission-runner.test.mjs tests/control-plane.test.mjs tests/runtime-kernel.test.mjs tests/external-replay.test.mjs tests/public-closure-audit.test.mjs tests/external-public-verifier.test.mjs

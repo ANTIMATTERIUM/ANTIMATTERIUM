@@ -107,7 +107,8 @@ function graph() {
       { id: "NPM_RECEIPT", type: "package_receipt" },
       { id: "RUNTIME_KERNEL", type: "admission_runtime_kernel" },
       { id: "EXTERNAL_REPLAY", type: "external_replay_receipt" },
-      { id: "PUBLIC_CLOSURE_AUDIT", type: "cross_surface_audit_receipt" }
+      { id: "PUBLIC_CLOSURE_AUDIT", type: "cross_surface_audit_receipt" },
+      { id: "EXTERNAL_PUBLIC_VERIFIER", type: "external_public_verifier_receipt" }
     ],
     edges: [
       ["ANTIMATTERIUM", "CONTROL_SEAL", "sealed_by"],
@@ -119,7 +120,8 @@ function graph() {
       ["ANTIMATTERIUM", "NPM_RECEIPT", "distributed_as"],
       ["ANTIMATTERIUM", "RUNTIME_KERNEL", "executed_by"],
       ["ANTIMATTERIUM", "EXTERNAL_REPLAY", "verified_by"],
-      ["ANTIMATTERIUM", "PUBLIC_CLOSURE_AUDIT", "closed_by"]
+      ["ANTIMATTERIUM", "PUBLIC_CLOSURE_AUDIT", "closed_by"],
+      ["ANTIMATTERIUM", "EXTERNAL_PUBLIC_VERIFIER", "externally_verifiable_by"]
     ]
   };
 }
