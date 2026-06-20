@@ -4,6 +4,21 @@
   "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
   "releases": [
     {
+      "version": "0.2.10",
+      "tag": "v0.2.10-antimatterium-npm-022-publication",
+      "title": "ANTIMATTERIUM v0.2.10 — npm 0.2.2 Publication",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.10-antimatterium-npm-022-publication",
+      "npm_version": "0.2.2",
+      "npm_receipt": "integrations/npm/NPM_022_PUBLICATION_RECEIPT.json",
+      "source_release": "v0.2.9-antimatterium-external-public-verifier",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+        "NON_PUBLIC_INFORMATION_EXCLUDED": true
+      }
+    },
+    {
       "version": "0.2.9",
       "tag": "v0.2.9-antimatterium-external-public-verifier",
       "title": "ANTIMATTERIUM v0.2.9 — External Public Verifier",
@@ -99,5 +114,5 @@
     "claims_current_starship_readiness": false,
     "claims_physical_production_instructions": false
   },
-  "latest": "v0.2.9-antimatterium-external-public-verifier"
+  "latest": "v0.2.10-antimatterium-npm-022-publication"
 }

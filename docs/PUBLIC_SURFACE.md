@@ -17,3 +17,12 @@ bash scripts/antimatterium-public-external-verify.sh
 ````
 
 The verifier clones the public repository, installs dependencies, runs the audit/control/runtime/replay verification suite, and checks the bound audit ID, control digest, runtime event ID, and replay ID.
+
+## npm 0.2.2 Publication
+
+The `0.2.2` npm publication binds the external public verifier, public closure audit, control digest, runtime event ID, and replay ID into a package-distribution receipt.
+
+```bash id="wwnhmb"
+npm run verify:npm-022
+```
+
