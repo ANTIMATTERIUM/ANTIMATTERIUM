@@ -1,0 +1,32 @@
+{
+  "receipt": "ANTIMATTERIUM_NPM_021_PUBLICATION_RECEIPT",
+  "version": "v0.2.2",
+  "published_package": {
+    "name": "@antimatterium/antimatterium",
+    "version": "0.2.1",
+    "registry": "https://registry.npmjs.org/",
+    "package_url": "https://www.npmjs.com/package/@antimatterium/antimatterium",
+    "install": "npm i @antimatterium/antimatterium"
+  },
+  "bound_release": {
+    "antimatterium_core": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.1-antimatterium-qvra-full-chain-recognition"
+  },
+  "qvra_chain": {
+    "lab": "https://github.com/qvra/lab/releases/tag/v0.1.0-qvra-antimatterium-lab-object",
+    "index": "https://github.com/qvra/index/releases/tag/v0.1.0-qvra-index-antimatterium-runnable-object",
+    "launch": "https://github.com/qvra/launch/releases/tag/v0.1.0-qvra-launch-antimatterium-runnable-object",
+    "meta": "https://github.com/qvra/meta/releases/tag/v0.1.0-qvra-meta-antimatterium-recognition",
+    "profile": "https://github.com/qvra/.github/releases/tag/v0.1.0-qvra-profile-antimatterium-recognition"
+  },
+  "claim_boundary": {
+    "claims_current_industrial_antimatter_production": false,
+    "claims_current_starship_readiness": false,
+    "claims_physical_production_instructions": false
+  },
+  "completion": {
+    "NPM_021_PUBLICATION_BOUND": true,
+    "PACKAGE_VERSION_021_BOUND": true,
+    "QVRA_FULL_CHAIN_BOUND": true,
+    "PUBLIC_PACKAGE_INSTALL_BOUND": true
+  }
+}
