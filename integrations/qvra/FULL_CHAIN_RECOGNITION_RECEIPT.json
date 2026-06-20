@@ -1,0 +1,39 @@
+{
+  "receipt": "ANTIMATTERIUM_QVRA_FULL_CHAIN_RECOGNITION_RECEIPT",
+  "version": "v0.2.1",
+  "recognized_object": {
+    "owner": "ANTIMATTERIUM",
+    "name": "ANTIMATTERIUM",
+    "type": "qvra-recognized external runnable lab object",
+    "core_release": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.0-antimatterium-qvra-external-lab-recognition",
+    "www_site": "https://antimatterium.github.io/WWW/",
+    "npm_package": "https://www.npmjs.com/package/@antimatterium/antimatterium"
+  },
+  "qvra_recognition_chain": {
+    "lab": "https://github.com/qvra/lab/releases/tag/v0.1.0-qvra-antimatterium-lab-object",
+    "index": "https://github.com/qvra/index/releases/tag/v0.1.0-qvra-index-antimatterium-runnable-object",
+    "launch": "https://github.com/qvra/launch/releases/tag/v0.1.0-qvra-launch-antimatterium-runnable-object",
+    "meta": "https://github.com/qvra/meta/releases/tag/v0.1.0-qvra-meta-antimatterium-recognition",
+    "profile": "https://github.com/qvra/.github/releases/tag/v0.1.0-qvra-profile-antimatterium-recognition"
+  },
+  "external_evidence_chain": {
+    "invocorder_profile": "https://github.com/INVOCORDER/INVOCORDER/releases/tag/v2.0.1-antimatterium-evidence-profile",
+    "public_surface": "https://github.com/ANTIMATTERIUM/WWW/releases/tag/v0.1.3-antimatterium-www-qvra-lab-recognition"
+  },
+  "recognition_statement": "qvra has recognized ANTIMATTERIUM through lab, index, launch, meta, and organization profile surfaces as an external runnable lab object.",
+  "claim_boundary": {
+    "claims_current_industrial_antimatter_production": false,
+    "claims_current_starship_readiness": false,
+    "claims_physical_production_instructions": false
+  },
+  "completion": {
+    "QVRA_FULL_CHAIN_RECOGNITION_BOUND": true,
+    "QVRA_LAB_BOUND": true,
+    "QVRA_INDEX_BOUND": true,
+    "QVRA_LAUNCH_BOUND": true,
+    "QVRA_META_BOUND": true,
+    "QVRA_PROFILE_BOUND": true,
+    "INVOCORDER_PROFILE_BOUND": true,
+    "PUBLIC_SURFACE_BOUND": true
+  }
+}
