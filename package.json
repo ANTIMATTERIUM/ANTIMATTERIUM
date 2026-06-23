@@ -1,6 +1,6 @@
 {
   "name": "@antimatterium/antimatterium",
-  "version": "0.2.2",
+  "version": "0.2.12",
   "description": "Industrial antimatter economics, custody, storage, and starflight mission architecture.",
   "license": "Apache-2.0",
   "type": "module",
@@ -32,7 +32,8 @@
     "verify:external-public": "node scripts/verify-external-public-verifier.mjs",
     "external:public": "bash scripts/antimatterium-public-external-verify.sh",
     "verify:npm-022": "node scripts/verify-npm-022-publication.mjs",
-    "verify:public-chain-os": "node scripts/verify-public-chain-os.mjs"
+    "verify:public-chain-os": "node scripts/verify-public-chain-os.mjs",
+    "verify:control-ci-evidence": "node scripts/verify-control-ci-evidence-backlink.mjs"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",

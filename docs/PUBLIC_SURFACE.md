@@ -36,3 +36,12 @@ npm run verify:public-chain-os
 node scripts/antimatterium-public-chain.mjs
 ````
 
+
+## CONTROL CI Evidence Backlink
+
+Core v0.2.12 binds the public CONTROL v0.1.2 CI evidence seal.
+
+```text
+ANTIMATTERIUM_CORE_CONTROL_CI_EVIDENCE_BACKLINK_VERIFY_PASS=true
+````
+
