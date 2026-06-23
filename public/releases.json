@@ -4,6 +4,20 @@
   "repository": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
   "releases": [
     {
+      "version": "0.2.11",
+      "tag": "v0.2.11-antimatterium-public-chain-os",
+      "title": "ANTIMATTERIUM v0.2.11 — Public Chain OS",
+      "url": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.11-antimatterium-public-chain-os",
+      "public_chain_os": "public/ANTIMATTERIUM_PUBLIC_CHAIN_OS.json",
+      "npm_version": "0.2.2",
+      "boundaries": {
+        "NO_CURRENT_PRODUCTION_CLAIM": true,
+        "NO_STARSHIP_CLAIM": true,
+        "NO_PHYSICAL_PRODUCTION_INSTRUCTIONS": true,
+        "NON_PUBLIC_INFORMATION_EXCLUDED": true
+      }
+    },
+    {
       "version": "0.2.10",
       "tag": "v0.2.10-antimatterium-npm-022-publication",
       "title": "ANTIMATTERIUM v0.2.10 — npm 0.2.2 Publication",
@@ -114,5 +128,5 @@
     "claims_current_starship_readiness": false,
     "claims_physical_production_instructions": false
   },
-  "latest": "v0.2.10-antimatterium-npm-022-publication"
+  "latest": "v0.2.11-antimatterium-public-chain-os"
 }

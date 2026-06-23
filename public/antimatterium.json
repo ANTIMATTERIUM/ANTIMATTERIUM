@@ -20,7 +20,7 @@
     "verify_command": "npm run verify:replay",
     "status_command": "antimatterium-replay status"
   },
-  "latest_release": "v0.2.10-antimatterium-npm-022-publication",
+  "latest_release": "v0.2.11-antimatterium-public-chain-os",
   "object": "ANTIMATTERIUM",
   "name": "ANTIMATTERIUM",
   "external_public_verifier": {
@@ -33,5 +33,6 @@
     "package": "https://www.npmjs.com/package/@antimatterium/antimatterium",
     "version": "0.2.2",
     "receipt": "integrations/npm/NPM_022_PUBLICATION_RECEIPT.json"
-  }
+  },
+  "public_chain_os": "public/ANTIMATTERIUM_PUBLIC_CHAIN_OS.json"
 }
