@@ -19,6 +19,7 @@ assert(releases.length >= 6, "public release index must bind expanded release ch
 
 const tags = new Set(releases.map((release) => release.tag).filter(Boolean));
 
+assert(tags.has("v0.2.11-antimatterium-public-chain-os"), "public chain OS release missing");
 assert(tags.has("v0.2.10-antimatterium-npm-022-publication"), "npm 0.2.2 release missing");
 assert(tags.has("v0.2.9-antimatterium-external-public-verifier"), "external public verifier release missing");
 assert(tags.has("v0.2.8-antimatterium-public-closure-audit"), "public closure audit release missing");
@@ -36,6 +37,7 @@ console.log("MISSION_RECEIPT_BOUND=true");
 console.log("EXTERNAL_REPLAY_RELEASE_BOUND=true");
 console.log("EXTERNAL_PUBLIC_VERIFIER_RELEASE_BOUND=true");
 console.log("NPM_022_RELEASE_BOUND=true");
+console.log("PUBLIC_CHAIN_OS_RELEASE_BOUND=true");
 console.log("NO_CURRENT_PRODUCTION_CLAIM=true");
 console.log("NO_STARSHIP_CLAIM=true");
 console.log("NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true");

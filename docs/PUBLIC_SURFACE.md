@@ -26,3 +26,13 @@ The `0.2.2` npm publication binds the external public verifier, public closure a
 npm run verify:npm-022
 ```
 
+
+## Public Chain OS
+
+ANTIMATTERIUM v0.2.11 introduces a single public chain operating ledger binding Core v0.2.10, WWW v0.1.6, org profile v0.0.4, npm 0.2.2, the public verifier, public audit, control digest, runtime event, and replay receipt.
+
+```bash id="sx720r"
+npm run verify:public-chain-os
+node scripts/antimatterium-public-chain.mjs
+````
+

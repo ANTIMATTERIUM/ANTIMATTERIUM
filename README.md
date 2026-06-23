@@ -216,3 +216,11 @@ npm i @antimatterium/antimatterium@0.2.2
 npx antimatterium-public-external-verify
 ````
 
+
+## Public Chain OS
+
+```bash id="yhajgh"
+npm run verify:public-chain-os
+node scripts/antimatterium-public-chain.mjs
+```
+
