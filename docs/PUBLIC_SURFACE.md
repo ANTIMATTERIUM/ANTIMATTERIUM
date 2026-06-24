@@ -45,3 +45,12 @@ Core v0.2.12 binds the public CONTROL v0.1.2 CI evidence seal.
 ANTIMATTERIUM_CORE_CONTROL_CI_EVIDENCE_BACKLINK_VERIFY_PASS=true
 ````
 
+
+## Public Stranger CI Backlink
+
+Core v0.2.13 binds the live CONTROL v0.1.6 public stranger CI run.
+
+```text
+ANTIMATTERIUM_CORE_PUBLIC_STRANGER_CI_BACKLINK_VERIFY_PASS=true
+````
+
