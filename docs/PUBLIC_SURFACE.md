@@ -60,3 +60,9 @@ ANTIMATTERIUM_CORE_PUBLIC_STRANGER_CI_BACKLINK_VERIFY_PASS=true
 Core v0.2.14 binds CONTROL v0.1.8 public ecosystem closure index.
 
 ANTIMATTERIUM_CORE_PUBLIC_ECOSYSTEM_INDEX_BACKLINK_VERIFY_PASS=true
+
+## Public Rootless Reconstruction Backlink
+
+Core v0.2.15 binds CONTROL v0.2.0 public rootless reconstruction index.
+
+ANTIMATTERIUM_CORE_PUBLIC_ROOTLESS_RECONSTRUCTION_BACKLINK_VERIFY_PASS=true
