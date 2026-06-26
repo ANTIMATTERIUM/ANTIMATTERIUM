@@ -224,3 +224,15 @@ npm run verify:public-chain-os
 node scripts/antimatterium-public-chain.mjs
 ```
 
+
+## Rootless Fanout Echo Backlink
+
+Core v0.2.16 binds the CONTROL v0.2.1 rootless fanout echo closure.
+
+Command:
+
+npm run verify:rootless-fanout-echo
+
+Marker:
+
+ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_ECHO_MEMBER=true
