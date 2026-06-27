@@ -248,3 +248,15 @@ npm run verify:rootless-fanout-backlink-closure
 Marker:
 
 ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_BACKPROPAGATION_MEMBER=true
+
+## Rootless Fanout Backpropagation Echo Backlink
+
+Core v0.2.18 binds CONTROL v0.2.3 rootless fanout backpropagation echo closure.
+
+Command:
+
+npm run verify:rootless-fanout-backpropagation-echo
+
+Marker:
+
+ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_BACKPROPAGATION_ECHO_MEMBER=true
