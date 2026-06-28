@@ -1,11 +1,11 @@
 {
   "name": "@antimatterium/antimatterium",
-  "version": "0.2.20",
+  "version": "0.2.21",
   "description": "Industrial antimatter economics, custody, storage, and starflight mission architecture.",
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "verify": "node scripts/verify-antimatterium.mjs && node scripts/verify-rootless-fanout-echo-backlink.mjs && node scripts/verify-rootless-fanout-backlink-closure-backlink.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-backlink.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-closure-backlink.mjs",
+    "verify": "node scripts/verify-antimatterium.mjs && node scripts/verify-rootless-fanout-echo-backlink.mjs && node scripts/verify-rootless-fanout-backlink-closure-backlink.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-backlink.mjs && node scripts/verify-rootless-fanout-backpropagation-echo-fanout-closure-backlink.mjs && node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-backlink.mjs",
     "test": "node --test tests/antimatterium.test.mjs",
     "verify:receipts": "node scripts/verify-receipts.mjs",
     "verify:index": "node scripts/verify-public-index.mjs",
@@ -41,7 +41,8 @@
     "verify:rootless-fanout-backlink-closure": "node scripts/verify-rootless-fanout-backlink-closure-backlink.mjs",
     "verify:rootless-fanout-backpropagation-echo": "node scripts/verify-rootless-fanout-backpropagation-echo-backlink.mjs",
     "verify:rootless-fanout-backpropagation-echo-fanout-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-closure-backlink.mjs",
-    "verify:rootless-fanout-backpropagation-echo-fanout-backlink-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backlink.mjs"
+    "verify:rootless-fanout-backpropagation-echo-fanout-backlink-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backlink.mjs",
+    "verify:rootless-fanout-backlink-closure-backpropagation-closure": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-backlink.mjs"
   },
   "exports": {
     "./annihilation-energy": "./src/annihilation-energy.mjs",

@@ -1,0 +1,9 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
+
+test("CORE v0.2.21 binds CONTROL v0.2.6 rootless fanout backlink closure backpropagation closure", () => {
+  const out = execFileSync(process.execPath, ["scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-backlink.mjs"], { encoding: "utf8" });
+  assert.match(out, /ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_BACKLINK_VERIFY_PASS=true/);
+  assert.match(out, /CORE_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_BACKLINK_ID=/);
+});
