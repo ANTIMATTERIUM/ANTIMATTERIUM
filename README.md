@@ -316,3 +316,18 @@ This surface binds the CONTROL v0.2.8 public closure into Core.
 - Starship claim: no
 - Physical production instructions: no
 <!-- ANTIMATTERIUM_MOVE21_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_BACKLINK_END -->\n\n<!-- ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_START -->\n## CONTROL v0.2.9 public backlink\n\nThis surface binds CONTROL v0.2.9 as a public backlink for `rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure`.\n\n- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.9-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure\n- CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28335270892\n- CONTROL closure id: `570726c66a7f54f3e015ff8d4f09860036957d41c788e3cea8be16ff81d76f44`\n- Surface backlink id: `6c84c858ce7a8fc4c70d7219b012cf51c612db32a63da6ec86696cdcd9db97ce`\n- `NO_CURRENT_PRODUCTION_CLAIM=true`\n- `NO_STARSHIP_CLAIM=true`\n- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`\n<!-- ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_END -->\n
+
+<!-- ANTIMATTERIUM:CONTROL_V0210_BACKLINK:START -->
+### CONTROL v0.2.10 backlink
+
+This public surface binds CONTROL v0.2.10 as a replayable upstream closure.
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.10-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure
+- CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28336116773
+- CONTROL closure id: 12940aa22c1477af9f4748f928b94eaaecb7e1379717997504c66b6975d19baf
+- Surface backlink id: 4c015cd8bc31bd51c0aa4f6b6101a4827e1ebca2e2820a2ce4d3bb2564fd23f0
+- Local root required: false
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+<!-- ANTIMATTERIUM:CONTROL_V0210_BACKLINK:END -->
