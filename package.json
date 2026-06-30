@@ -82,8 +82,9 @@
     "verify:rootless-fanout-echo": "node scripts/verify-rootless-fanout-echo-backlink.mjs",
     "verify:rootless-reconstruction": "node scripts/verify-public-rootless-reconstruction-backlink.mjs",
     "verify:runtime": "node scripts/verify-runtime-kernel.mjs",
-    "verify:seal": "node scripts/verify-control-seal.mjs"
+    "verify:seal": "node scripts/verify-control-seal.mjs",
+    "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-backlink.mjs"
   },
   "type": "module",
-  "version": "0.2.24"
+  "version": "0.2.25"
 }
