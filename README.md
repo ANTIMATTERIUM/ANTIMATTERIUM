@@ -387,3 +387,18 @@ This public surface binds CONTROL v0.2.14 as a replayable upstream closure.
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_CORE_ROOTLESS_FANOUT_BACKLINK_CLOSURE_BACKPROPAGATION_CLOSURE_FANOUT_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_CLOSURE_FANOUT_CLOSURE_BACKLINK_CLOSURE_BACKLINK_CLOSURE_BACKLINK_CLOSURE_BACKLINK_END -->
+
+<!-- ANTIMATTERIUM_CORE_MOVE35_CONTROL_V0215_BACKLINK_START -->
+## CONTROL v0.2.15 public closure backlink
+
+This surface binds the CONTROL v0.2.15 public surface backlink fanout closure.
+
+- Surface package version: `0.2.30`
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.15-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure
+- CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28516895725
+- CONTROL closure id: `5fd82a631ca4d01e4209288479d3cbcd623ddd017587722d2c67708ff3cbf56a`
+- Surface backlink id: `4436b1b981906208e96770b4fc39d5d6c56aa4b7a529509fb78217434b59eea6`
+- `NO_CURRENT_PRODUCTION_CLAIM=true`
+- `NO_STARSHIP_CLAIM=true`
+- `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
+<!-- ANTIMATTERIUM_CORE_MOVE35_CONTROL_V0215_BACKLINK_END -->
