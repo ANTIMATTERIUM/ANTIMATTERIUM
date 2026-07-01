@@ -92,8 +92,10 @@
     "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink.mjs",
     "test:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink": "node tests/rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink.test.mjs",
     "verify:move39-control-v0217-backlink": "node scripts/verify-move39-control-v0217-backlink.mjs",
-    "test:move39-control-v0217-backlink": "node tests/move39-control-v0217-backlink.test.mjs"
+    "test:move39-control-v0217-backlink": "node tests/move39-control-v0217-backlink.test.mjs",
+    "verify:move41-control-v0218-backlink": "node scripts/verify-move41-control-v0218-backlink.mjs",
+    "test:move41-control-v0218-backlink": "node tests/move41-control-v0218-backlink.test.mjs"
   },
   "type": "module",
-  "version": "0.2.32"
+  "version": "0.2.33"
 }
