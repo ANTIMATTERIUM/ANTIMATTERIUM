@@ -402,3 +402,19 @@ This surface binds the CONTROL v0.2.15 public surface backlink fanout closure.
 - `NO_STARSHIP_CLAIM=true`
 - `NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true`
 <!-- ANTIMATTERIUM_CORE_MOVE35_CONTROL_V0215_BACKLINK_END -->
+
+## CONTROL v0.2.16 public surface backlink
+
+This surface binds the CONTROL v0.2.16 public closure as a replayable public backlink.
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.16-antimatterium-control-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure
+- CONTROL CI run: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28518517865
+- CONTROL closure id: `e9f48278e811786b35f9939f982d502a7b0eacc4aff47e03e9257095190c6d26`
+- Surface backlink id: `b5a671ef8b595a9364f2aeb84bcc3a65d8204edacc4fc286c6c93c22929db325`
+- Verify: `npm run verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink-closure-backlink`
+
+Safety boundary remains explicit:
+
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
