@@ -78,6 +78,7 @@
     "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-backlink.mjs",
     "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink.mjs",
     "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink.mjs",
+    "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-backlink-closure-fanout-closure-backlink-closure-fanout-closure-backlink-closure-backlink-closure-backlink.mjs",
     "verify:rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure": "node scripts/verify-rootless-fanout-backlink-closure-backpropagation-closure-fanout-closure-backlink.mjs",
     "verify:rootless-fanout-backpropagation-echo": "node scripts/verify-rootless-fanout-backpropagation-echo-backlink.mjs",
     "verify:rootless-fanout-backpropagation-echo-fanout-backlink-closure": "node scripts/verify-rootless-fanout-backpropagation-echo-fanout-backlink-closure-backlink.mjs",
@@ -88,5 +89,5 @@
     "verify:seal": "node scripts/verify-control-seal.mjs"
   },
   "type": "module",
-  "version": "0.2.27"
+  "version": "0.2.28"
 }
