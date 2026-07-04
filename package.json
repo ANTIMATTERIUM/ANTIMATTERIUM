@@ -108,8 +108,10 @@
     "verify:move53-control-v0224-backlink": "node scripts/verify-move53-control-v0224-backlink.mjs",
     "test:move53-control-v0224-backlink": "node --test tests/move53-control-v0224-backlink.test.mjs",
     "verify:move55-control-v0225-backlink": "node scripts/verify-move55-control-v0225-backlink.mjs",
-    "test:move55-control-v0225-backlink": "node --test tests/move55-control-v0225-backlink.test.mjs"
+    "test:move55-control-v0225-backlink": "node --test tests/move55-control-v0225-backlink.test.mjs",
+    "verify:move57-control-v0226-backlink": "node scripts/verify-move57-control-v0226-backlink.mjs",
+    "test:move57-control-v0226-backlink": "node --test tests/move57-control-v0226-backlink.test.mjs"
   },
   "type": "module",
-  "version": "0.2.40"
+  "version": "0.2.41"
 }
