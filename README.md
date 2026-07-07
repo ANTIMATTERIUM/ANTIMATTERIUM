@@ -790,3 +790,18 @@ Core 0.2.52 binds a public backlink to CONTROL v0.2.37.
 - NO_CURRENT_PRODUCTION_CLAIM=true
 - NO_STARSHIP_CLAIM=true
 - NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+
+## Move 81 — CONTROL v0.2.37 backlink to Core
+
+Core 0.2.53 binds a public backlink to CONTROL v0.2.37.
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.38-antimatterium-control-move79-surface-closure
+- CONTROL CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/28893546825
+- CONTROL closure ID: 2d29e07145411ed224b9115f7974875a54149f8cfef514f253409c1c321c4e17
+- Surface tag: v0.2.53-antimatterium-control-v0238-backlink
+- Backlink ID: c95084dd908698c740b3e523863dc991a8630433f40024ee1e2a560a7eebcbd1
+- ANTIMATTERIUM_SHORT_PUBLIC_TAG_REQUIRED=true
+- ANTIMATTERIUM_NO_LOCAL_ROOT_REQUIRED=true
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
