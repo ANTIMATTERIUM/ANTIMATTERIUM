@@ -879,3 +879,20 @@ Core binds the CONTROL v0.2.43 public surface closure.
 - NO_CURRENT_PRODUCTION_CLAIM=true
 - NO_STARSHIP_CLAIM=true
 - NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
+
+
+## Move 93 — CONTROL v0.2.44 backlink
+
+Core binds the CONTROL v0.2.44 public surface closure.
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.44-antimatterium-control-move91-surface-closure
+- CONTROL CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29050784336
+- CONTROL closure ID: 12b7a23e6b4691c991c4a4321b299fc963120a35b22c362e466b66121eddab54
+- Surface version: 0.2.59
+- Surface tag: v0.2.59-antimatterium-control-v0244-backlink
+- Backlink ID: 8dad72a77f2689a045ead5bc309bbe29c967f5547bb59f16c9fdd84153f156b6
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
