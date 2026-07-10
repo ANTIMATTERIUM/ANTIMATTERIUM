@@ -1,0 +1,34 @@
+{
+  "schema": "antimatterium.core.move93.control_v0244_backlink.v1",
+  "move": 93,
+  "relation": "surface_backlink_from_control_v0244",
+  "surface": {
+    "key": "CORE",
+    "title": "Core",
+    "repository": "ANTIMATTERIUM/ANTIMATTERIUM",
+    "package_name": "@antimatterium/antimatterium",
+    "version": "0.2.59",
+    "release_tag": "v0.2.59-antimatterium-control-v0244-backlink"
+  },
+  "control": {
+    "version": "0.2.44",
+    "release": "https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.44-antimatterium-control-move91-surface-closure",
+    "tag": "v0.2.44-antimatterium-control-move91-surface-closure",
+    "ci_run": "https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29050784336",
+    "closure_id": "12b7a23e6b4691c991c4a4321b299fc963120a35b22c362e466b66121eddab54",
+    "main_sha": "5673ca092d58ec7a5d42f847e47889c77e3432a2"
+  },
+  "public_constraints": {
+    "short_public_tag_required": true,
+    "no_local_root_required": true,
+    "no_current_production_claim": true,
+    "no_starship_claim": true,
+    "no_physical_production_instructions": true
+  },
+  "backlink": {
+    "id": "8dad72a77f2689a045ead5bc309bbe29c967f5547bb59f16c9fdd84153f156b6",
+    "kind": "control_v0244_surface_backlink",
+    "source": "CONTROL v0.2.44",
+    "target": "Core 0.2.59"
+  }
+}
