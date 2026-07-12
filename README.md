@@ -1115,3 +1115,19 @@ NO_STARSHIP_CLAIM=true
 NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
 ```
 <!-- /ANTIMATTERIUM MOVE 117 CORE CONTROL V0256 BACKLINK -->
+
+## Move 119 — CONTROL v0.2.57 backlink
+
+Core binds the CONTROL v0.2.57 public closure release.
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.57-antimatterium-control-move117-surface-closure
+- CONTROL verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29197125059
+- CONTROL main SHA: ad002077cc6d86bd03655ee8bec24df00f75d17d
+- CONTROL closure ID: b9e403645fe18031552c192cd7ebed2c2d8e9aec070502c6d89b556aabfabf32
+- Core release tag: v0.2.72-antimatterium-control-v0257-backlink
+- Core backlink ID: 904813a62a468852f8a1e0fd05b3a34c2959ecc9c34ce7c6248bc2ccc18aea87
+
+Safety:
+- NO_CURRENT_PRODUCTION_CLAIM=true
+- NO_STARSHIP_CLAIM=true
+- NO_PHYSICAL_PRODUCTION_INSTRUCTIONS=true
