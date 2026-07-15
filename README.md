@@ -1310,3 +1310,30 @@ Boundary:
 - No current production claim: true
 - No starship claim: true
 - No physical production instructions: true
+
+## Move 135 — Core binds CONTROL v0.2.65
+
+This public surface binds the CONTROL v0.2.65 closure authority.
+
+Authority:
+
+- CONTROL release: https://github.com/ANTIMATTERIUM/CONTROL/releases/tag/v0.2.65-antimatterium-control-move133-surface-closure
+- Verify CI: https://github.com/ANTIMATTERIUM/CONTROL/actions/runs/29362695665
+- Main SHA: bd3e4e02c1b923785607687b36bf1d082042c348
+- Closure ID: 0e5c9918ca4ba76f44577b62549888dadad5464cdc170e5ed7b7835b9107fbd0
+
+Surface release:
+
+- https://github.com/ANTIMATTERIUM/ANTIMATTERIUM/releases/tag/v0.2.80-antimatterium-control-v0265-backlink
+
+Backlink ID:
+
+- abb30f6f935d6c939237154b47e8966121bf8f9c506353a45aa0e7f2c4616da2
+
+Boundary:
+
+- Short public tag required: true
+- No local root required: true
+- No current production claim: true
+- No starship claim: true
+- No physical production instructions: true
